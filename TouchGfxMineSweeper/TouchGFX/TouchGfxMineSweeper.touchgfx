@@ -2,8 +2,33 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
-        "Components": [],
+        "Name": "GameScreen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BackScreen",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "BackScreen.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 20,
+            "Y": 20,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_hourglass_empty_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\tiny_fill_normal.json"
+          }
+        ],
         "Interactions": []
       }
     ],
@@ -14,7 +39,7 @@
       "Height": 480
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "GameScreen1",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
