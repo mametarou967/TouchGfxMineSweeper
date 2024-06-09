@@ -3,6 +3,10 @@
 
 GameScreen1View::GameScreen1View()
 {
+	Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
+					touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
+					touchgfx::Bitmap(BITMAP_INVALID),
+					touchgfx::Bitmap(BITMAP_INVALID));
 	GameScreen1View::block1_1_Cliecked_Valid = false;
 }
 
@@ -23,16 +27,16 @@ void GameScreen1View::Block1_1_Clicked()
 	{
 		Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
 						touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
-						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID),
-						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+						touchgfx::Bitmap(BITMAP_INVALID),
+						touchgfx::Bitmap(BITMAP_INVALID));
 		GameScreen1View::block1_1_Cliecked_Valid = true;
 	}
 	else
 	{
 		Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
 						touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
-						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID),
-						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+						touchgfx::Bitmap(BITMAP_INVALID),
+						touchgfx::Bitmap(BITMAP_INVALID));
 		GameScreen1View::block1_1_Cliecked_Valid = false;
 	}
 
