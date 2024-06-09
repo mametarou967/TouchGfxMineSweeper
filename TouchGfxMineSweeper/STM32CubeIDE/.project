@@ -455,16 +455,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/image_icon_theme_images_action_hourglass_empty_50_50_E8F6FB.svg.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_action_hourglass_empty_50_50_E8F6FB.svg.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.cpp</locationURI>
