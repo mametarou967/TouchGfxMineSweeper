@@ -28,7 +28,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image BackScreen;
-    touchgfx::ButtonWithIcon buttonWithIcon1;
+    touchgfx::ButtonWithIcon Block1_1;
 
 private:
 
