@@ -18,6 +18,14 @@ public:
     virtual ~GameScreen1ViewBase();
     virtual void setupScreen();
 
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void Block1_1_Clicked()
+    {
+        // Override and implement this function in GameScreen1
+    }
+
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());
@@ -31,6 +39,16 @@ protected:
     touchgfx::ButtonWithIcon Block1_1;
 
 private:
+
+    /*
+     * Callback Declarations
+     */
+    touchgfx::Callback<GameScreen1ViewBase, const touchgfx::AbstractButton&> buttonCallback;
+
+    /*
+     * Callback Handler Declarations
+     */
+    void buttonCallbackHandler(const touchgfx::AbstractButton& src);
 
 };
 

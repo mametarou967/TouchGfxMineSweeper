@@ -332,3 +332,60 @@ java.lang.IllegalStateException: Call stack for thread main
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-06-09 11:41:12.395
 !MESSAGE Indexed 'STM32U5G9J-DK2' (90 sources, 360 headers) in 24.6 sec: 32,672 declarations; 132,941 references; 8 unresolved inclusions; 160 syntax errors; 3,522 unresolved names (2.1%)
+!SESSION 2024-06-09 11:47:29.993 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-09 11:47:40.649
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-09 11:47:40.651
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-09 11:47:49.187
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-09 11:48:25.893
+!MESSAGE Indexed 'STM32U5G9J-DK2' (94 sources, 363 headers) in 35.8 sec: 33,040 declarations; 137,706 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0012%)
+!SESSION 2024-06-09 12:00:16.345 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-06-09 12:00:38.921
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-06-09 12:00:38.924
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-09 12:00:48.941
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-09 12:01:29.031
+!MESSAGE Indexed 'STM32U5G9J-DK2' (95 sources, 363 headers) in 39 sec: 33,045 declarations; 137,728 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0018%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-06-09 12:16:44.808
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2024-06-09 12:16:44.810
+!MESSAGE Setup exceptions

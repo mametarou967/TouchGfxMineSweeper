@@ -14,6 +14,8 @@
 
 #include <gui/gamescreen1_screen/GameScreen1View.hpp>
 #include <gui/gamescreen1_screen/GameScreen1Presenter.hpp>
+#include <gui/screen1_screen/Screen1View.hpp>
+#include <gui/screen1_screen/Screen1Presenter.hpp>
 
 
 /**
@@ -37,7 +39,8 @@ public:
      * @note All view types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< GameScreen1View,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< Screen1View,
+            touchgfx::meta::Nil >
             > GeneratedViewTypes;
 
     /**
@@ -50,7 +53,8 @@ public:
      * @note All presenter types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< GameScreen1Presenter,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< Screen1Presenter,
+            touchgfx::meta::Nil >
             > GeneratedPresenterTypes;
 
     /**

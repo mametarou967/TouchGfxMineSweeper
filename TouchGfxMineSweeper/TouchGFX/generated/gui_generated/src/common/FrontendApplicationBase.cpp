@@ -13,6 +13,8 @@
 #endif
 #include <gui/gamescreen1_screen/GameScreen1View.hpp>
 #include <gui/gamescreen1_screen/GameScreen1Presenter.hpp>
+#include <gui/screen1_screen/Screen1View.hpp>
+#include <gui/screen1_screen/Screen1Presenter.hpp>
 
 using namespace touchgfx;
 

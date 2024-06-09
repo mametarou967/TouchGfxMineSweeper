@@ -28,6 +28,47 @@
             "IconWidth": 50
           }
         ],
+        "Interactions": [
+          {
+            "InteractionName": "Block1_1_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Block1_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Block1_1_Clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "BackScreen",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "BackScreen.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Sample1",
+            "X": 17,
+            "Y": 17,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          }
+        ],
         "Interactions": []
       }
     ],

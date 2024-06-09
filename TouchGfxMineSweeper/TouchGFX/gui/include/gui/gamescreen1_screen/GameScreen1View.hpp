@@ -11,7 +11,10 @@ public:
     virtual ~GameScreen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    virtual void Block1_1_Clicked();
 protected:
+    bool block1_1_Cliecked_Valid;
 };
 
 #endif // GAMESCREEN1VIEW_HPP

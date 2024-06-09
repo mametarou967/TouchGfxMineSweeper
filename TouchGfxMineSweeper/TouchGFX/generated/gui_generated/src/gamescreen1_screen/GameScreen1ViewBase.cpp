@@ -5,7 +5,8 @@
 #include <touchgfx/Color.hpp>
 #include <images/BitmapDatabase.hpp>
 
-GameScreen1ViewBase::GameScreen1ViewBase()
+GameScreen1ViewBase::GameScreen1ViewBase() :
+    buttonCallback(this, &GameScreen1ViewBase::buttonCallbackHandler)
 {
     __background.setPosition(0, 0, 800, 480);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -18,6 +19,7 @@ GameScreen1ViewBase::GameScreen1ViewBase()
     Block1_1.setXY(20, 19);
     Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block1_1.setIconXY(5, 5);
+    Block1_1.setAction(buttonCallback);
     add(Block1_1);
 }
 
@@ -29,4 +31,15 @@ GameScreen1ViewBase::~GameScreen1ViewBase()
 void GameScreen1ViewBase::setupScreen()
 {
 
+}
+
+void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
+{
+    if (&src == &Block1_1)
+    {
+        //Block1_1_Interaction
+        //When Block1_1 clicked call virtual function
+        //Call Block1_1_Clicked
+        Block1_1_Clicked();
+    }
 }

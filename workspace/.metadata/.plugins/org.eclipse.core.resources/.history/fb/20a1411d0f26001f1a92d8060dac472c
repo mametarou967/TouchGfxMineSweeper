@@ -1,0 +1,29 @@
+#include <gui/gamescreen1_screen/GameScreen1View.hpp>
+#include <images/BitmapDatabase.hpp>
+
+GameScreen1View::GameScreen1View()
+{
+	GameScreen1View::block1_1_Cliecked_Valid = false;
+}
+
+void GameScreen1View::setupScreen()
+{
+    GameScreen1ViewBase::setupScreen();
+}
+
+void GameScreen1View::tearDownScreen()
+{
+    GameScreen1ViewBase::tearDownScreen();
+}
+
+
+void GameScreen1View::Block1_1_Clicked()
+{
+	if(GameScreen1View::block1_1_Cliecked_Valid)
+	Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
+						touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
+						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID),
+						touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+
+	Block1_1.invalidate();
+}

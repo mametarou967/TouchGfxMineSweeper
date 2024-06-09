@@ -1,0 +1,4 @@
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/Core/Src/main.c:171:6:SystemClock_Config	4
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/Core/Src/main.c:99:5:main	16
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/Core/Src/main.c:735:6:HAL_TIM_PeriodElapsedCallback	2
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/Core/Src/main.c:752:6:Error_Handler	1
