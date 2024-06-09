@@ -14,7 +14,7 @@ public:
 
     virtual void Block1_1_Clicked();
 protected:
-    bool block1_1_Cliecked_Valid;
+    int block1_1_Cliecked_number;
 };
 
 #endif // GAMESCREEN1VIEW_HPP

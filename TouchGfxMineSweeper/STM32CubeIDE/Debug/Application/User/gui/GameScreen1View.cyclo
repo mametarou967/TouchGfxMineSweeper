@@ -6,4 +6,4 @@ C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescree
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1View.hpp:11:13:virtual GameScreen1View::~GameScreen1View()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:4:1:GameScreen1View::GameScreen1View()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:13:6:virtual void GameScreen1View::setupScreen()	1
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:24:6:virtual void GameScreen1View::Block1_1_Clicked()	2
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:24:6:virtual void GameScreen1View::Block1_1_Clicked()	5

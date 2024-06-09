@@ -56,7 +56,7 @@
             "Type": "ButtonWithIcon",
             "Name": "Sample1",
             "X": 17,
-            "Y": 17,
+            "Y": 16,
             "Width": 60,
             "Height": 60,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.png",
@@ -67,6 +67,24 @@
             "IconY": 5,
             "IconHeight": 50,
             "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 90,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1_1",
+            "X": 161,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number2.png"
           }
         ],
         "Interactions": []

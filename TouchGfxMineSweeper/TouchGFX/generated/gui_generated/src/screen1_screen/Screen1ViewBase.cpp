@@ -15,10 +15,18 @@ Screen1ViewBase::Screen1ViewBase()
     BackScreen.setBitmap(touchgfx::Bitmap(BITMAP_BACKSCREEN_ID));
     add(BackScreen);
 
-    Sample1.setXY(17, 17);
+    Sample1.setXY(17, 16);
     Sample1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Sample1.setIconXY(5, 5);
     add(Sample1);
+
+    image1.setXY(90, 16);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER1_ID));
+    add(image1);
+
+    image1_1.setXY(161, 16);
+    image1_1.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER2_ID));
+    add(image1_1);
 }
 
 Screen1ViewBase::~Screen1ViewBase()
