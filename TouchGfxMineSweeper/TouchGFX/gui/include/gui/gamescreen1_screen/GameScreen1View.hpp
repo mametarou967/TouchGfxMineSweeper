@@ -15,6 +15,16 @@ public:
     virtual void Block1_1_Clicked();
 protected:
     int block1_1_Cliecked_number;
+    enum class BlockState
+	{
+    	Close = 0,
+		CloseWithFlag,
+		OpenNumber0,
+		OpenNumber1,
+		OpenNumber2,
+		BlockStateMax
+	};
+    void updateBlockImage(touchgfx::ButtonWithIcon&,BlockState);
 };
 
 #endif // GAMESCREEN1VIEW_HPP
