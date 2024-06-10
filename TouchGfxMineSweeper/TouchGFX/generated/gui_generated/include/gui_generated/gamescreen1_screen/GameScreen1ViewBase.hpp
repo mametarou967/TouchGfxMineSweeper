@@ -36,6 +36,14 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image BackScreen;
+    touchgfx::ButtonWithIcon Block3_3;
+    touchgfx::ButtonWithIcon Block3_2;
+    touchgfx::ButtonWithIcon Block3_1;
+    touchgfx::ButtonWithIcon Block2_3;
+    touchgfx::ButtonWithIcon Block2_2;
+    touchgfx::ButtonWithIcon Block2_1;
+    touchgfx::ButtonWithIcon Block1_3;
+    touchgfx::ButtonWithIcon Block1_2;
     touchgfx::ButtonWithIcon Block1_1;
 
 private:

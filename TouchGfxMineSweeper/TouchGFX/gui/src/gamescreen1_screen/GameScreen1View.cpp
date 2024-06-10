@@ -3,7 +3,15 @@
 
 GameScreen1View::GameScreen1View()
 {
-    updateBlockImage(Block1_1, BlockState::CloseWithFlag);
+    updateBlockImage(Block1_1, BlockState::Close);
+    updateBlockImage(Block1_2, BlockState::Close);
+    updateBlockImage(Block1_3, BlockState::Close);
+    updateBlockImage(Block2_1, BlockState::Close);
+    updateBlockImage(Block2_2, BlockState::Close);
+    updateBlockImage(Block2_3, BlockState::Close);
+    updateBlockImage(Block3_1, BlockState::Close);
+    updateBlockImage(Block3_2, BlockState::Close);
+    updateBlockImage(Block3_3, BlockState::Close);
     GameScreen1View::block1_1_Cliecked_number = 0;
 }
 
