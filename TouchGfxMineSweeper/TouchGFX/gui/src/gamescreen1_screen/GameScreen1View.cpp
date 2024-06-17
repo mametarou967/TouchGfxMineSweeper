@@ -27,16 +27,69 @@ void GameScreen1View::tearDownScreen()
     GameScreen1ViewBase::tearDownScreen();
 }
 
-void GameScreen1View::Block1_1_Clicked()
-{
-    if (GameScreen1View::block1_1_Cliecked_number == 0) updateBlockImage(Block1_1, BlockState::Close);
-    else if (GameScreen1View::block1_1_Cliecked_number == 1) updateBlockImage(Block1_1, BlockState::CloseWithFlag);
-    else if (GameScreen1View::block1_1_Cliecked_number == 2) updateBlockImage(Block1_1, BlockState::OpenNumber0);
-    else if (GameScreen1View::block1_1_Cliecked_number == 3) updateBlockImage(Block1_1, BlockState::OpenNumber1);
-    else if (GameScreen1View::block1_1_Cliecked_number == 4) updateBlockImage(Block1_1, BlockState::OpenNumber2);
-    GameScreen1View::block1_1_Cliecked_number++;
-    if (GameScreen1View::block1_1_Cliecked_number == 5) GameScreen1View::block1_1_Cliecked_number = 0;
-}
+void GameScreen1View::Block1_1_Clicked(){ blockClicked(1,1); }
+void GameScreen1View::Block1_2_Clicked(){ blockClicked(1,2); }
+void GameScreen1View::Block1_3_Clicked(){ blockClicked(1,3); }
+void GameScreen1View::Block1_4_Clicked(){ blockClicked(1,4); }
+void GameScreen1View::Block1_5_Clicked(){ blockClicked(1,5); }
+void GameScreen1View::Block1_6_Clicked(){ blockClicked(1,6); }
+void GameScreen1View::Block1_7_Clicked(){ blockClicked(1,7); }
+void GameScreen1View::Block1_8_Clicked(){ blockClicked(1,8); }
+void GameScreen1View::Block1_9_Clicked(){ blockClicked(1,9); }
+void GameScreen1View::Block2_1_Clicked(){ blockClicked(2,1); }
+void GameScreen1View::Block2_2_Clicked(){ blockClicked(2,2); }
+void GameScreen1View::Block2_3_Clicked(){ blockClicked(2,3); }
+void GameScreen1View::Block2_4_Clicked(){ blockClicked(2,4); }
+void GameScreen1View::Block2_5_Clicked(){ blockClicked(2,5); }
+void GameScreen1View::Block2_6_Clicked(){ blockClicked(2,6); }
+void GameScreen1View::Block2_7_Clicked(){ blockClicked(2,7); }
+void GameScreen1View::Block2_8_Clicked(){ blockClicked(2,8); }
+void GameScreen1View::Block2_9_Clicked(){ blockClicked(2,9); }
+void GameScreen1View::Block3_1_Clicked(){ blockClicked(3,1); }
+void GameScreen1View::Block3_2_Clicked(){ blockClicked(3,2); }
+void GameScreen1View::Block3_3_Clicked(){ blockClicked(3,3); }
+void GameScreen1View::Block3_4_Clicked(){ blockClicked(3,4); }
+void GameScreen1View::Block3_5_Clicked(){ blockClicked(3,5); }
+void GameScreen1View::Block3_6_Clicked(){ blockClicked(3,6); }
+void GameScreen1View::Block3_7_Clicked(){ blockClicked(3,7); }
+void GameScreen1View::Block3_8_Clicked(){ blockClicked(3,8); }
+void GameScreen1View::Block3_9_Clicked(){ blockClicked(3,9); }
+void GameScreen1View::Block4_1_Clicked(){ blockClicked(4,1); }
+void GameScreen1View::Block4_2_Clicked(){ blockClicked(4,2); }
+void GameScreen1View::Block4_3_Clicked(){ blockClicked(4,3); }
+void GameScreen1View::Block4_4_Clicked(){ blockClicked(4,4); }
+void GameScreen1View::Block4_5_Clicked(){ blockClicked(4,5); }
+void GameScreen1View::Block4_6_Clicked(){ blockClicked(4,6); }
+void GameScreen1View::Block4_7_Clicked(){ blockClicked(4,7); }
+void GameScreen1View::Block4_8_Clicked(){ blockClicked(4,8); }
+void GameScreen1View::Block4_9_Clicked(){ blockClicked(4,9); }
+void GameScreen1View::Block5_1_Clicked(){ blockClicked(5,1); }
+void GameScreen1View::Block5_2_Clicked(){ blockClicked(5,2); }
+void GameScreen1View::Block5_3_Clicked(){ blockClicked(5,3); }
+void GameScreen1View::Block5_4_Clicked(){ blockClicked(5,4); }
+void GameScreen1View::Block5_5_Clicked(){ blockClicked(5,5); }
+void GameScreen1View::Block5_6_Clicked(){ blockClicked(5,6); }
+void GameScreen1View::Block5_7_Clicked(){ blockClicked(5,7); }
+void GameScreen1View::Block5_8_Clicked(){ blockClicked(5,8); }
+void GameScreen1View::Block5_9_Clicked(){ blockClicked(5,9); }
+void GameScreen1View::Block6_1_Clicked(){ blockClicked(6,1); }
+void GameScreen1View::Block6_2_Clicked(){ blockClicked(6,2); }
+void GameScreen1View::Block6_3_Clicked(){ blockClicked(6,3); }
+void GameScreen1View::Block6_4_Clicked(){ blockClicked(6,4); }
+void GameScreen1View::Block6_5_Clicked(){ blockClicked(6,5); }
+void GameScreen1View::Block6_6_Clicked(){ blockClicked(6,6); }
+void GameScreen1View::Block6_7_Clicked(){ blockClicked(6,7); }
+void GameScreen1View::Block6_8_Clicked(){ blockClicked(6,8); }
+void GameScreen1View::Block6_9_Clicked(){ blockClicked(6,9); }
+void GameScreen1View::Block7_1_Clicked(){ blockClicked(7,1); }
+void GameScreen1View::Block7_2_Clicked(){ blockClicked(7,2); }
+void GameScreen1View::Block7_3_Clicked(){ blockClicked(7,3); }
+void GameScreen1View::Block7_4_Clicked(){ blockClicked(7,4); }
+void GameScreen1View::Block7_5_Clicked(){ blockClicked(7,5); }
+void GameScreen1View::Block7_6_Clicked(){ blockClicked(7,6); }
+void GameScreen1View::Block7_7_Clicked(){ blockClicked(7,7); }
+void GameScreen1View::Block7_8_Clicked(){ blockClicked(7,8); }
+void GameScreen1View::Block7_9_Clicked(){ blockClicked(7,9); }
 
 void GameScreen1View::updateBlockImage(touchgfx::ButtonWithIcon& blockImage, GameScreen1View::BlockState blockState)
 {
@@ -171,4 +224,10 @@ touchgfx::ButtonWithIcon& GameScreen1View::getBlockWithIcon(int row , int column
 	}
 
 	return Block1_1;
+}
+
+void GameScreen1View::blockClicked(int row,int column)
+{
+	touchgfx::ButtonWithIcon& block = getBlockWithIcon(row, column);
+    updateBlockImage(block, BlockState::OpenNumber0);
 }
