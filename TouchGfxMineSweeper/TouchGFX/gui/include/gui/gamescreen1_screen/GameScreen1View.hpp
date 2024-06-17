@@ -13,6 +13,7 @@ public:
     virtual void tearDownScreen();
 
     virtual void Block1_1_Clicked();
+    touchgfx::ButtonWithIcon& getBlockWithIcon(int row , int column);
 protected:
     int block1_1_Cliecked_number;
     enum class BlockState
