@@ -16,17 +16,79 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:24:18:virtual void GameScreen1ViewBase::Block1_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:28:18:virtual void GameScreen1ViewBase::Block1_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:32:18:virtual void GameScreen1ViewBase::Block1_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:36:18:virtual void GameScreen1ViewBase::Block1_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:40:18:virtual void GameScreen1ViewBase::Block1_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:44:18:virtual void GameScreen1ViewBase::Block1_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:48:18:virtual void GameScreen1ViewBase::Block1_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:52:18:virtual void GameScreen1ViewBase::Block1_8_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:56:18:virtual void GameScreen1ViewBase::Block1_9_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:60:18:virtual void GameScreen1ViewBase::Block2_1_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:64:18:virtual void GameScreen1ViewBase::Block2_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:68:18:virtual void GameScreen1ViewBase::Block2_3_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:72:18:virtual void GameScreen1ViewBase::Block2_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:76:18:virtual void GameScreen1ViewBase::Block2_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:80:18:virtual void GameScreen1ViewBase::Block2_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:84:18:virtual void GameScreen1ViewBase::Block2_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:88:18:virtual void GameScreen1ViewBase::Block2_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:92:18:virtual void GameScreen1ViewBase::Block2_9_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:96:18:virtual void GameScreen1ViewBase::Block3_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:100:18:virtual void GameScreen1ViewBase::Block3_2_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:104:18:virtual void GameScreen1ViewBase::Block3_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:108:18:virtual void GameScreen1ViewBase::Block3_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:112:18:virtual void GameScreen1ViewBase::Block3_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:116:18:virtual void GameScreen1ViewBase::Block3_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:120:18:virtual void GameScreen1ViewBase::Block3_7_Cliecked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:124:18:virtual void GameScreen1ViewBase::Block3_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:128:18:virtual void GameScreen1ViewBase::Block3_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:132:18:virtual void GameScreen1ViewBase::Block4_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:136:18:virtual void GameScreen1ViewBase::Block4_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:140:18:virtual void GameScreen1ViewBase::Block4_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:144:18:virtual void GameScreen1ViewBase::Block4_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:148:18:virtual void GameScreen1ViewBase::Block4_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:152:18:virtual void GameScreen1ViewBase::Block4_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:156:18:virtual void GameScreen1ViewBase::Block4_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:160:18:virtual void GameScreen1ViewBase::Block4_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:164:18:virtual void GameScreen1ViewBase::Block4_9_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:168:18:virtual void GameScreen1ViewBase::Block5_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:172:18:virtual void GameScreen1ViewBase::Block5_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:176:18:virtual void GameScreen1ViewBase::Block5_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:180:18:virtual void GameScreen1ViewBase::Block5_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:184:18:virtual void GameScreen1ViewBase::Block5_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:188:18:virtual void GameScreen1ViewBase::Block5_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:192:18:virtual void GameScreen1ViewBase::Block5_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:196:18:virtual void GameScreen1ViewBase::Block5_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:200:18:virtual void GameScreen1ViewBase::Block5_9_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:204:18:virtual void GameScreen1ViewBase::Block6_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:208:18:virtual void GameScreen1ViewBase::Block6_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:212:18:virtual void GameScreen1ViewBase::Block6_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:216:18:virtual void GameScreen1ViewBase::Block6_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:220:18:virtual void GameScreen1ViewBase::Block6_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:224:18:virtual void GameScreen1ViewBase::Block6_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:228:18:virtual void GameScreen1ViewBase::Block6_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:232:18:virtual void GameScreen1ViewBase::Block6_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:236:18:virtual void GameScreen1ViewBase::Block6_9_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:240:18:virtual void GameScreen1ViewBase::Block7_1_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:244:18:virtual void GameScreen1ViewBase::Block7_2_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:248:18:virtual void GameScreen1ViewBase::Block7_3_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:252:18:virtual void GameScreen1ViewBase::Block7_4_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:256:18:virtual void GameScreen1ViewBase::Block7_5_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:260:18:virtual void GameScreen1ViewBase::Block7_6_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:264:18:virtual void GameScreen1ViewBase::Block7_7_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:268:18:virtual void GameScreen1ViewBase::Block7_8_Clicked()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp:272:18:virtual void GameScreen1ViewBase::Block7_9_Clicked()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<GameScreen1Presenter>::~View()	0	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:66:1:GameScreen1ViewBase::~GameScreen1ViewBase()	0	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:71:6:virtual void GameScreen1ViewBase::setupScreen()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:398:1:GameScreen1ViewBase::~GameScreen1ViewBase()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:403:6:virtual void GameScreen1ViewBase::setupScreen()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:408:6:void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<GameScreen1ViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = GameScreen1ViewBase; T1 = const touchgfx::AbstractButton&]	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = GameScreen1ViewBase; T1 = const touchgfx::AbstractButton&]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<GameScreen1ViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<GameScreen1Presenter>::~View()	8	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:66:1:virtual GameScreen1ViewBase::~GameScreen1ViewBase()	8	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:398:1:virtual GameScreen1ViewBase::~GameScreen1ViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:76:6:void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:8:1:GameScreen1ViewBase::GameScreen1ViewBase()	96	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/generated/gui_generated/src/gamescreen1_screen/GameScreen1ViewBase.cpp:8:1:GameScreen1ViewBase::GameScreen1ViewBase()	312	static

@@ -16,51 +16,383 @@ GameScreen1ViewBase::GameScreen1ViewBase() :
     BackScreen.setBitmap(touchgfx::Bitmap(BITMAP_BACKSCREEN_ID));
     add(BackScreen);
 
-    Block3_3.setXY(150, 150);
+    Block3_3.setXY(145, 145);
     Block3_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block3_3.setIconXY(5, 5);
+    Block3_3.setAction(buttonCallback);
     add(Block3_3);
 
-    Block3_2.setXY(85, 150);
+    Block3_2.setXY(80, 145);
     Block3_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block3_2.setIconXY(5, 5);
+    Block3_2.setAction(buttonCallback);
     add(Block3_2);
 
-    Block3_1.setXY(20, 150);
+    Block4_3.setXY(145, 210);
+    Block4_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_3.setIconXY(5, 5);
+    Block4_3.setAction(buttonCallback);
+    add(Block4_3);
+
+    Block4_2.setXY(80, 210);
+    Block4_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_2.setIconXY(5, 5);
+    Block4_2.setAction(buttonCallback);
+    add(Block4_2);
+
+    Block3_1.setXY(15, 145);
     Block3_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block3_1.setIconXY(5, 5);
+    Block3_1.setAction(buttonCallback);
     add(Block3_1);
 
-    Block2_3.setXY(150, 85);
+    Block4_1.setXY(15, 210);
+    Block4_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_1.setIconXY(5, 5);
+    Block4_1.setAction(buttonCallback);
+    add(Block4_1);
+
+    Block5_3.setXY(145, 275);
+    Block5_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_3.setIconXY(5, 5);
+    Block5_3.setAction(buttonCallback);
+    add(Block5_3);
+
+    Block5_2.setXY(80, 275);
+    Block5_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_2.setIconXY(5, 5);
+    Block5_2.setAction(buttonCallback);
+    add(Block5_2);
+
+    Block5_1.setXY(15, 275);
+    Block5_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_1.setIconXY(5, 5);
+    Block5_1.setAction(buttonCallback);
+    add(Block5_1);
+
+    Block6_3.setXY(145, 340);
+    Block6_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_3.setIconXY(5, 5);
+    Block6_3.setAction(buttonCallback);
+    add(Block6_3);
+
+    Block6_2.setXY(80, 340);
+    Block6_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_2.setIconXY(5, 5);
+    Block6_2.setAction(buttonCallback);
+    add(Block6_2);
+
+    Block6_1.setXY(15, 340);
+    Block6_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_1.setIconXY(5, 5);
+    Block6_1.setAction(buttonCallback);
+    add(Block6_1);
+
+    Block7_3.setXY(145, 405);
+    Block7_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_3.setIconXY(5, 5);
+    Block7_3.setAction(buttonCallback);
+    add(Block7_3);
+
+    Block7_2.setXY(80, 405);
+    Block7_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_2.setIconXY(5, 5);
+    Block7_2.setAction(buttonCallback);
+    add(Block7_2);
+
+    Block7_1.setXY(15, 405);
+    Block7_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_1.setIconXY(5, 5);
+    Block7_1.setAction(buttonCallback);
+    add(Block7_1);
+
+    Block2_3.setXY(145, 80);
     Block2_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block2_3.setIconXY(5, 5);
+    Block2_3.setAction(buttonCallback);
     add(Block2_3);
 
-    Block2_2.setXY(85, 85);
+    Block2_2.setXY(80, 80);
     Block2_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block2_2.setIconXY(5, 5);
+    Block2_2.setAction(buttonCallback);
     add(Block2_2);
 
-    Block2_1.setXY(20, 85);
+    Block2_1.setXY(15, 80);
     Block2_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block2_1.setIconXY(5, 5);
+    Block2_1.setAction(buttonCallback);
     add(Block2_1);
 
-    Block1_3.setXY(150, 20);
+    Block1_3.setXY(145, 15);
     Block1_3.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block1_3.setIconXY(5, 5);
+    Block1_3.setAction(buttonCallback);
     add(Block1_3);
 
-    Block1_2.setXY(85, 20);
+    Block1_2.setXY(80, 15);
     Block1_2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block1_2.setIconXY(5, 5);
+    Block1_2.setAction(buttonCallback);
     add(Block1_2);
 
-    Block1_1.setXY(20, 20);
+    Block1_1.setXY(15, 15);
     Block1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block1_1.setIconXY(5, 5);
     Block1_1.setAction(buttonCallback);
     add(Block1_1);
+
+    Block3_6.setXY(340, 145);
+    Block3_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_6.setIconXY(5, 5);
+    Block3_6.setAction(buttonCallback);
+    add(Block3_6);
+
+    Block3_5.setXY(275, 145);
+    Block3_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_5.setIconXY(5, 5);
+    Block3_5.setAction(buttonCallback);
+    add(Block3_5);
+
+    Block4_6.setXY(340, 210);
+    Block4_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_6.setIconXY(5, 5);
+    Block4_6.setAction(buttonCallback);
+    add(Block4_6);
+
+    Block4_5.setXY(275, 210);
+    Block4_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_5.setIconXY(5, 5);
+    Block4_5.setAction(buttonCallback);
+    add(Block4_5);
+
+    Block3_4.setXY(210, 145);
+    Block3_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_4.setIconXY(5, 5);
+    Block3_4.setAction(buttonCallback);
+    add(Block3_4);
+
+    Block4_4.setXY(210, 210);
+    Block4_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_4.setIconXY(5, 5);
+    Block4_4.setAction(buttonCallback);
+    add(Block4_4);
+
+    Block5_6.setXY(340, 275);
+    Block5_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_6.setIconXY(5, 5);
+    Block5_6.setAction(buttonCallback);
+    add(Block5_6);
+
+    Block5_5.setXY(275, 275);
+    Block5_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_5.setIconXY(5, 5);
+    Block5_5.setAction(buttonCallback);
+    add(Block5_5);
+
+    Block5_4.setXY(210, 275);
+    Block5_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_4.setIconXY(5, 5);
+    Block5_4.setAction(buttonCallback);
+    add(Block5_4);
+
+    Block6_6.setXY(340, 340);
+    Block6_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_6.setIconXY(5, 5);
+    Block6_6.setAction(buttonCallback);
+    add(Block6_6);
+
+    Block6_5.setXY(275, 340);
+    Block6_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_5.setIconXY(5, 5);
+    Block6_5.setAction(buttonCallback);
+    add(Block6_5);
+
+    Block6_4.setXY(210, 340);
+    Block6_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_4.setIconXY(5, 5);
+    Block6_4.setAction(buttonCallback);
+    add(Block6_4);
+
+    Block7_6.setXY(340, 405);
+    Block7_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_6.setIconXY(5, 5);
+    Block7_6.setAction(buttonCallback);
+    add(Block7_6);
+
+    Block7_5.setXY(275, 405);
+    Block7_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_5.setIconXY(5, 5);
+    Block7_5.setAction(buttonCallback);
+    add(Block7_5);
+
+    Block7_4.setXY(210, 405);
+    Block7_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_4.setIconXY(5, 5);
+    Block7_4.setAction(buttonCallback);
+    add(Block7_4);
+
+    Block2_6.setXY(340, 80);
+    Block2_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_6.setIconXY(5, 5);
+    Block2_6.setAction(buttonCallback);
+    add(Block2_6);
+
+    Block2_5.setXY(275, 80);
+    Block2_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_5.setIconXY(5, 5);
+    Block2_5.setAction(buttonCallback);
+    add(Block2_5);
+
+    Block2_4.setXY(210, 80);
+    Block2_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_4.setIconXY(5, 5);
+    Block2_4.setAction(buttonCallback);
+    add(Block2_4);
+
+    Block1_6.setXY(340, 15);
+    Block1_6.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_6.setIconXY(5, 5);
+    Block1_6.setAction(buttonCallback);
+    add(Block1_6);
+
+    Block1_5.setXY(275, 15);
+    Block1_5.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_5.setIconXY(5, 5);
+    Block1_5.setAction(buttonCallback);
+    add(Block1_5);
+
+    Block1_4.setXY(210, 15);
+    Block1_4.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_4.setIconXY(5, 5);
+    Block1_4.setAction(buttonCallback);
+    add(Block1_4);
+
+    Block3_9.setXY(535, 145);
+    Block3_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_9.setIconXY(5, 5);
+    Block3_9.setAction(buttonCallback);
+    add(Block3_9);
+
+    Block3_8.setXY(470, 145);
+    Block3_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_8.setIconXY(5, 5);
+    Block3_8.setAction(buttonCallback);
+    add(Block3_8);
+
+    Block4_9.setXY(535, 210);
+    Block4_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_9.setIconXY(5, 5);
+    Block4_9.setAction(buttonCallback);
+    add(Block4_9);
+
+    Block4_8.setXY(470, 210);
+    Block4_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_8.setIconXY(5, 5);
+    Block4_8.setAction(buttonCallback);
+    add(Block4_8);
+
+    Block3_7.setXY(405, 145);
+    Block3_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block3_7.setIconXY(5, 5);
+    Block3_7.setAction(buttonCallback);
+    add(Block3_7);
+
+    Block4_7.setXY(405, 210);
+    Block4_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block4_7.setIconXY(5, 5);
+    Block4_7.setAction(buttonCallback);
+    add(Block4_7);
+
+    Block5_9.setXY(535, 275);
+    Block5_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_9.setIconXY(5, 5);
+    Block5_9.setAction(buttonCallback);
+    add(Block5_9);
+
+    Block5_8.setXY(470, 275);
+    Block5_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_8.setIconXY(5, 5);
+    Block5_8.setAction(buttonCallback);
+    add(Block5_8);
+
+    Block5_7.setXY(405, 275);
+    Block5_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block5_7.setIconXY(5, 5);
+    Block5_7.setAction(buttonCallback);
+    add(Block5_7);
+
+    Block6_9.setXY(535, 340);
+    Block6_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_9.setIconXY(5, 5);
+    Block6_9.setAction(buttonCallback);
+    add(Block6_9);
+
+    Block6_8.setXY(470, 340);
+    Block6_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_8.setIconXY(5, 5);
+    Block6_8.setAction(buttonCallback);
+    add(Block6_8);
+
+    Block6_7.setXY(405, 340);
+    Block6_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block6_7.setIconXY(5, 5);
+    Block6_7.setAction(buttonCallback);
+    add(Block6_7);
+
+    Block7_9.setXY(535, 405);
+    Block7_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_9.setIconXY(5, 5);
+    Block7_9.setAction(buttonCallback);
+    add(Block7_9);
+
+    Block7_8.setXY(470, 405);
+    Block7_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_8.setIconXY(5, 5);
+    Block7_8.setAction(buttonCallback);
+    add(Block7_8);
+
+    Block7_7.setXY(405, 405);
+    Block7_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block7_7.setIconXY(5, 5);
+    Block7_7.setAction(buttonCallback);
+    add(Block7_7);
+
+    Block2_9.setXY(535, 80);
+    Block2_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_9.setIconXY(5, 5);
+    Block2_9.setAction(buttonCallback);
+    add(Block2_9);
+
+    Block2_8.setXY(470, 80);
+    Block2_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_8.setIconXY(5, 5);
+    Block2_8.setAction(buttonCallback);
+    add(Block2_8);
+
+    Block2_7.setXY(405, 80);
+    Block2_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block2_7.setIconXY(5, 5);
+    Block2_7.setAction(buttonCallback);
+    add(Block2_7);
+
+    Block1_9.setXY(535, 15);
+    Block1_9.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_9.setIconXY(5, 5);
+    Block1_9.setAction(buttonCallback);
+    add(Block1_9);
+
+    Block1_8.setXY(470, 15);
+    Block1_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_8.setIconXY(5, 5);
+    Block1_8.setAction(buttonCallback);
+    add(Block1_8);
+
+    Block1_7.setXY(405, 15);
+    Block1_7.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Block1_7.setIconXY(5, 5);
+    Block1_7.setAction(buttonCallback);
+    add(Block1_7);
 }
 
 GameScreen1ViewBase::~GameScreen1ViewBase()
@@ -81,5 +413,439 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         //When Block1_1 clicked call virtual function
         //Call Block1_1_Clicked
         Block1_1_Clicked();
+    }
+    if (&src == &Block1_2)
+    {
+        //Block1_2_Interaction
+        //When Block1_2 clicked call virtual function
+        //Call Block1_2_Clicked
+        Block1_2_Clicked();
+    }
+    if (&src == &Block1_3)
+    {
+        //Block1_3_Interaction
+        //When Block1_3 clicked call virtual function
+        //Call Block1_3_Clicked
+        Block1_3_Clicked();
+    }
+    if (&src == &Block1_4)
+    {
+        //Block1_4_Interaction
+        //When Block1_4 clicked call virtual function
+        //Call Block1_4_Clicked
+        Block1_4_Clicked();
+    }
+    if (&src == &Block1_5)
+    {
+        //Block1_5_Interaction
+        //When Block1_5 clicked call virtual function
+        //Call Block1_5_Clicked
+        Block1_5_Clicked();
+    }
+    if (&src == &Block1_6)
+    {
+        //Block1_6_Interaction
+        //When Block1_6 clicked call virtual function
+        //Call Block1_6_Clicked
+        Block1_6_Clicked();
+    }
+    if (&src == &Block1_7)
+    {
+        //Block1_7_Interaction
+        //When Block1_7 clicked call virtual function
+        //Call Block1_7_Clicked
+        Block1_7_Clicked();
+    }
+    if (&src == &Block1_8)
+    {
+        //Block1_8_Interaction
+        //When Block1_8 clicked call virtual function
+        //Call Block1_8_Cliecked
+        Block1_8_Cliecked();
+    }
+    if (&src == &Block1_9)
+    {
+        //Block1_9_Interaction
+        //When Block1_9 clicked call virtual function
+        //Call Block1_9_Cliecked
+        Block1_9_Cliecked();
+    }
+    if (&src == &Block2_1)
+    {
+        //Block2_1_Interaction
+        //When Block2_1 clicked call virtual function
+        //Call Block2_1_Cliecked
+        Block2_1_Cliecked();
+    }
+    if (&src == &Block2_2)
+    {
+        //Block2_2_Interaction
+        //When Block2_2 clicked call virtual function
+        //Call Block2_2_Clicked
+        Block2_2_Clicked();
+    }
+    if (&src == &Block2_3)
+    {
+        //Block2_3_Interaction
+        //When Block2_3 clicked call virtual function
+        //Call Block2_3_Cliecked
+        Block2_3_Cliecked();
+    }
+    if (&src == &Block2_4)
+    {
+        //Block2_4_Interaction
+        //When Block2_4 clicked call virtual function
+        //Call Block2_4_Clicked
+        Block2_4_Clicked();
+    }
+    if (&src == &Block2_5)
+    {
+        //Block2_5_Interaction
+        //When Block2_5 clicked call virtual function
+        //Call Block2_5_Clicked
+        Block2_5_Clicked();
+    }
+    if (&src == &Block2_6)
+    {
+        //Block2_6_Interaction
+        //When Block2_6 clicked call virtual function
+        //Call Block2_6_Clicked
+        Block2_6_Clicked();
+    }
+    if (&src == &Block2_7)
+    {
+        //Block2_7_Interaction
+        //When Block2_7 clicked call virtual function
+        //Call Block2_7_Clicked
+        Block2_7_Clicked();
+    }
+    if (&src == &Block2_8)
+    {
+        //Block2_8_Interaction
+        //When Block2_8 clicked call virtual function
+        //Call Block2_8_Clicked
+        Block2_8_Clicked();
+    }
+    if (&src == &Block2_9)
+    {
+        //Block2_9_Interaction
+        //When Block2_9 clicked call virtual function
+        //Call Block2_9_Clicked
+        Block2_9_Clicked();
+    }
+    if (&src == &Block3_1)
+    {
+        //Block3_1_Interaction
+        //When Block3_1 clicked call virtual function
+        //Call Block3_1_Clicked
+        Block3_1_Clicked();
+    }
+    if (&src == &Block3_2)
+    {
+        //Block3_2_Interaction
+        //When Block3_2 clicked call virtual function
+        //Call Block3_2_Cliecked
+        Block3_2_Cliecked();
+    }
+    if (&src == &Block3_3)
+    {
+        //Block3_3_Interaction
+        //When Block3_3 clicked call virtual function
+        //Call Block3_3_Clicked
+        Block3_3_Clicked();
+    }
+    if (&src == &Block3_4)
+    {
+        //Block3_4_Interaction
+        //When Block3_4 clicked call virtual function
+        //Call Block3_4_Clicked
+        Block3_4_Clicked();
+    }
+    if (&src == &Block3_5)
+    {
+        //Block3_5_Interaction
+        //When Block3_5 clicked call virtual function
+        //Call Block3_5_Clicked
+        Block3_5_Clicked();
+    }
+    if (&src == &Block3_6)
+    {
+        //Block3_6_Interaction
+        //When Block3_6 clicked call virtual function
+        //Call Block3_6_Clicked
+        Block3_6_Clicked();
+    }
+    if (&src == &Block3_7)
+    {
+        //Block3_7_Interaction
+        //When Block3_7 clicked call virtual function
+        //Call Block3_7_Cliecked
+        Block3_7_Cliecked();
+    }
+    if (&src == &Block3_8)
+    {
+        //Block3_8_Interaction
+        //When Block3_8 clicked call virtual function
+        //Call Block3_8_Clicked
+        Block3_8_Clicked();
+    }
+    if (&src == &Block3_9)
+    {
+        //Block3_9_Interaction
+        //When Block3_9 clicked call virtual function
+        //Call Block3_7_Clicked
+        Block3_7_Clicked();
+    }
+    if (&src == &Block4_1)
+    {
+        //Block4_1_Interaction
+        //When Block4_1 clicked call virtual function
+        //Call Block4_1_Clicked
+        Block4_1_Clicked();
+    }
+    if (&src == &Block4_2)
+    {
+        //Block4_2_Interaction
+        //When Block4_2 clicked call virtual function
+        //Call Block4_2_Clicked
+        Block4_2_Clicked();
+    }
+    if (&src == &Block4_3)
+    {
+        //Block4_3_Interaction
+        //When Block4_3 clicked call virtual function
+        //Call Block4_3_Clicked
+        Block4_3_Clicked();
+    }
+    if (&src == &Block4_4)
+    {
+        //Block4_4_Interaction
+        //When Block4_4 clicked call virtual function
+        //Call Block4_4_Clicked
+        Block4_4_Clicked();
+    }
+    if (&src == &Block4_5)
+    {
+        //Block4_5_Interaction
+        //When Block4_5 clicked call virtual function
+        //Call Block4_5_Clicked
+        Block4_5_Clicked();
+    }
+    if (&src == &Block4_6)
+    {
+        //Block4_6_Interaction
+        //When Block4_6 clicked call virtual function
+        //Call Block4_6_Clicked
+        Block4_6_Clicked();
+    }
+    if (&src == &Block4_7)
+    {
+        //Block4_7_Interaction
+        //When Block4_7 clicked call virtual function
+        //Call Block4_7_Clicked
+        Block4_7_Clicked();
+    }
+    if (&src == &Block4_8)
+    {
+        //Block4_8_Interaction
+        //When Block4_8 clicked call virtual function
+        //Call Block4_8_Clicked
+        Block4_8_Clicked();
+    }
+    if (&src == &Block4_9)
+    {
+        //Block4_9_Interaction
+        //When Block4_9 clicked call virtual function
+        //Call Block4_9_Clicked
+        Block4_9_Clicked();
+    }
+    if (&src == &Block5_1)
+    {
+        //Block5_1_Interaction
+        //When Block5_1 clicked call virtual function
+        //Call Block5_1_Clicked
+        Block5_1_Clicked();
+    }
+    if (&src == &Block5_2)
+    {
+        //Block5_2_Interaction
+        //When Block5_2 clicked call virtual function
+        //Call Block5_2_Clicked
+        Block5_2_Clicked();
+    }
+    if (&src == &Block5_3)
+    {
+        //Block5_3_Interaction
+        //When Block5_3 clicked call virtual function
+        //Call Block5_3_Clicked
+        Block5_3_Clicked();
+    }
+    if (&src == &Block5_4)
+    {
+        //Block5_4_Interaction
+        //When Block5_4 clicked call virtual function
+        //Call Block5_4_Clicked
+        Block5_4_Clicked();
+    }
+    if (&src == &Block5_5)
+    {
+        //Block5_5_Interaction
+        //When Block5_5 clicked call virtual function
+        //Call Block5_5_Clicked
+        Block5_5_Clicked();
+    }
+    if (&src == &Block5_6)
+    {
+        //Block5_6_Interaction
+        //When Block5_6 clicked call virtual function
+        //Call Block5_6_Clicked
+        Block5_6_Clicked();
+    }
+    if (&src == &Block5_7)
+    {
+        //Block5_7_Interaction
+        //When Block5_7 clicked call virtual function
+        //Call Block5_7_Clicked
+        Block5_7_Clicked();
+    }
+    if (&src == &Block5_8)
+    {
+        //Block5_8_Interaction
+        //When Block5_8 clicked call virtual function
+        //Call Block5_8_Clicked
+        Block5_8_Clicked();
+    }
+    if (&src == &Block5_9)
+    {
+        //Block5_9_Interaction
+        //When Block5_9 clicked call virtual function
+        //Call Block5_9_Clicked
+        Block5_9_Clicked();
+    }
+    if (&src == &Block6_1)
+    {
+        //Block6_1_Interaction
+        //When Block6_1 clicked call virtual function
+        //Call Block6_1_Clicked
+        Block6_1_Clicked();
+    }
+    if (&src == &Block6_2)
+    {
+        //Block6_2_Interaction
+        //When Block6_2 clicked call virtual function
+        //Call Block6_2_Clicked
+        Block6_2_Clicked();
+    }
+    if (&src == &Block6_3)
+    {
+        //Block6_3_Interaction
+        //When Block6_3 clicked call virtual function
+        //Call Block6_3_Clicked
+        Block6_3_Clicked();
+    }
+    if (&src == &Block6_4)
+    {
+        //Block6_4_Interaction
+        //When Block6_4 clicked call virtual function
+        //Call Block6_4_Clicked
+        Block6_4_Clicked();
+    }
+    if (&src == &Block6_5)
+    {
+        //Block6_5_Interaction
+        //When Block6_5 clicked call virtual function
+        //Call Block6_5_Clicked
+        Block6_5_Clicked();
+    }
+    if (&src == &Block6_6)
+    {
+        //Block6_6_Interaction
+        //When Block6_6 clicked call virtual function
+        //Call Block6_6_Clicked
+        Block6_6_Clicked();
+    }
+    if (&src == &Block6_7)
+    {
+        //Block6_7_Interaction
+        //When Block6_7 clicked call virtual function
+        //Call Block6_7_Clicked
+        Block6_7_Clicked();
+    }
+    if (&src == &Block6_8)
+    {
+        //Block6_8_Interaction
+        //When Block6_8 clicked call virtual function
+        //Call Block6_8_Clicked
+        Block6_8_Clicked();
+    }
+    if (&src == &Block6_9)
+    {
+        //Block6_9_Interaction
+        //When Block6_9 clicked call virtual function
+        //Call Block6_9_Clicked
+        Block6_9_Clicked();
+    }
+    if (&src == &Block7_1)
+    {
+        //Block7_1_Interaction
+        //When Block7_1 clicked call virtual function
+        //Call Block7_1_Clicked
+        Block7_1_Clicked();
+    }
+    if (&src == &Block7_2)
+    {
+        //Block7_2_Interaction
+        //When Block7_2 clicked call virtual function
+        //Call Block7_2_Clicked
+        Block7_2_Clicked();
+    }
+    if (&src == &Block7_3)
+    {
+        //Block7_3_Interaction
+        //When Block7_3 clicked call virtual function
+        //Call Block7_3_Clicked
+        Block7_3_Clicked();
+    }
+    if (&src == &Block7_4)
+    {
+        //Block7_4_Interaction
+        //When Block7_4 clicked call virtual function
+        //Call Block7_4_Clicked
+        Block7_4_Clicked();
+    }
+    if (&src == &Block7_5)
+    {
+        //Block7_5_Interaction
+        //When Block7_5 clicked call virtual function
+        //Call Block7_5_Clicked
+        Block7_5_Clicked();
+    }
+    if (&src == &Block7_6)
+    {
+        //Block7_6_Interaction
+        //When Block7_6 clicked call virtual function
+        //Call Block7_6_Clicked
+        Block7_6_Clicked();
+    }
+    if (&src == &Block7_7)
+    {
+        //Block7_7_Interaction
+        //When Block7_7 clicked call virtual function
+        //Call Block7_7_Clicked
+        Block7_7_Clicked();
+    }
+    if (&src == &Block7_8)
+    {
+        //Block7_8_Interaction
+        //When Block7_8 clicked call virtual function
+        //Call Block7_8_Clicked
+        Block7_8_Clicked();
+    }
+    if (&src == &Block7_9)
+    {
+        //Block7_9_Interaction
+        //When Block7_9 clicked call virtual function
+        //Call Block7_9_Clicked
+        Block7_9_Clicked();
     }
 }
