@@ -75,8 +75,7 @@ public:
     virtual void Block7_7_Clicked();
     virtual void Block7_8_Clicked();
     virtual void Block7_9_Clicked();
-protected:
-    int block1_1_Cliecked_number;
+
     enum class BlockState
 	{
     	Close = 0,
@@ -86,7 +85,10 @@ protected:
 		OpenNumber2,
 		BlockStateMax
 	};
-    void updateBlockImage(touchgfx::ButtonWithIcon&,BlockState);
+
+    void updateBlockImage(int row,int column,BlockState);
+protected:
+    int block1_1_Cliecked_number;
     touchgfx::ButtonWithIcon& getBlockWithIcon(int row , int column);
     void blockClicked(int row,int column);
 };

@@ -27,6 +27,8 @@ public:
 
     virtual ~GameScreen1Presenter() {}
 
+    void blockClicked(int row, int column);
+
 private:
     GameScreen1Presenter();
 

@@ -4,10 +4,10 @@
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:25:6:virtual void GameScreen1View::tearDownScreen()	1
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1View.hpp:11:13:GameScreen1View::~GameScreen1View()	1
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1View.hpp:11:13:virtual GameScreen1View::~GameScreen1View()	1
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:94:6:void GameScreen1View::updateBlockImage(touchgfx::ButtonWithIcon&, BlockState)	6
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:139:27:touchgfx::ButtonWithIcon& GameScreen1View::getBlockWithIcon(int, int)	71
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:141:27:touchgfx::ButtonWithIcon& GameScreen1View::getBlockWithIcon(int, int)	71
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:94:6:void GameScreen1View::updateBlockImage(int, int, BlockState)	6
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:4:1:GameScreen1View::GameScreen1View()	3
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:229:6:void GameScreen1View::blockClicked(int, int)	1
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:231:6:void GameScreen1View::blockClicked(int, int)	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:30:6:virtual void GameScreen1View::Block1_1_Clicked()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:31:6:virtual void GameScreen1View::Block1_2_Clicked()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1View.cpp:32:6:virtual void GameScreen1View::Block1_3_Clicked()	1

@@ -10,8 +10,8 @@ GameScreen1View::GameScreen1View()
 	{
 		for(column=1;column<=9;column++)
 		{
-			touchgfx::ButtonWithIcon& block = getBlockWithIcon(row, column);
-		    updateBlockImage(block, BlockState::Close);
+			//touchgfx::ButtonWithIcon& block = getBlockWithIcon(row, column);
+		    updateBlockImage(row,column ,BlockState::Close);
 		}
 	}
     GameScreen1View::block1_1_Cliecked_number = 0;
@@ -91,8 +91,10 @@ void GameScreen1View::Block7_7_Clicked(){ blockClicked(7,7); }
 void GameScreen1View::Block7_8_Clicked(){ blockClicked(7,8); }
 void GameScreen1View::Block7_9_Clicked(){ blockClicked(7,9); }
 
-void GameScreen1View::updateBlockImage(touchgfx::ButtonWithIcon& blockImage, GameScreen1View::BlockState blockState)
+void GameScreen1View::updateBlockImage(int row,int column, GameScreen1View::BlockState blockState)
 {
+	touchgfx::ButtonWithIcon& blockImage = getBlockWithIcon(row, column);
+
     switch (blockState)
     {
     case BlockState::Close:
@@ -228,6 +230,5 @@ touchgfx::ButtonWithIcon& GameScreen1View::getBlockWithIcon(int row , int column
 
 void GameScreen1View::blockClicked(int row,int column)
 {
-	touchgfx::ButtonWithIcon& block = getBlockWithIcon(row, column);
-    updateBlockImage(block, BlockState::OpenNumber0);
+    presenter->blockClicked(row, column);
 }

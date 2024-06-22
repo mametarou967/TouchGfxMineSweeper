@@ -16,3 +16,8 @@ void GameScreen1Presenter::deactivate()
 {
 
 }
+
+void GameScreen1Presenter::blockClicked(int row, int column)
+{
+	view.updateBlockImage(row, column, GameScreen1View::BlockState::OpenNumber0);
+}

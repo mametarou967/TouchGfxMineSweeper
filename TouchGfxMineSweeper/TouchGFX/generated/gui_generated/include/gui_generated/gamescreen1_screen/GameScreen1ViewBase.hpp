@@ -49,15 +49,15 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block1_8_Cliecked()
+    virtual void Block1_8_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block1_9_Cliecked()
+    virtual void Block1_9_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block2_1_Cliecked()
+    virtual void Block2_1_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
@@ -65,7 +65,7 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block2_3_Cliecked()
+    virtual void Block2_3_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
@@ -97,7 +97,7 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block3_2_Cliecked()
+    virtual void Block3_2_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
@@ -117,7 +117,7 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block3_7_Cliecked()
+    virtual void Block3_7_Clicked()
     {
         // Override and implement this function in GameScreen1
     }
@@ -125,7 +125,7 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
-    virtual void Block3_7_Clicked()
+    virtual void Block3_9_Clicked()
     {
         // Override and implement this function in GameScreen1
     }

@@ -3,3 +3,4 @@ C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescree
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:28:13:virtual GameScreen1Presenter::~GameScreen1Presenter()	1
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:28:13:virtual void* GameScreen1Presenter::_ZThn4_N20GameScreen1PresenterD1Ev()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:4:1:GameScreen1Presenter::GameScreen1Presenter(GameScreen1View&)	1
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:20:6:void GameScreen1Presenter::blockClicked(int, int)	1

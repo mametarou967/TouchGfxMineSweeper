@@ -460,22 +460,22 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
     {
         //Block1_8_Interaction
         //When Block1_8 clicked call virtual function
-        //Call Block1_8_Cliecked
-        Block1_8_Cliecked();
+        //Call Block1_8_Clicked
+        Block1_8_Clicked();
     }
     if (&src == &Block1_9)
     {
         //Block1_9_Interaction
         //When Block1_9 clicked call virtual function
-        //Call Block1_9_Cliecked
-        Block1_9_Cliecked();
+        //Call Block1_9_Clicked
+        Block1_9_Clicked();
     }
     if (&src == &Block2_1)
     {
         //Block2_1_Interaction
         //When Block2_1 clicked call virtual function
-        //Call Block2_1_Cliecked
-        Block2_1_Cliecked();
+        //Call Block2_1_Clicked
+        Block2_1_Clicked();
     }
     if (&src == &Block2_2)
     {
@@ -488,8 +488,8 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
     {
         //Block2_3_Interaction
         //When Block2_3 clicked call virtual function
-        //Call Block2_3_Cliecked
-        Block2_3_Cliecked();
+        //Call Block2_3_Clicked
+        Block2_3_Clicked();
     }
     if (&src == &Block2_4)
     {
@@ -544,8 +544,8 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
     {
         //Block3_2_Interaction
         //When Block3_2 clicked call virtual function
-        //Call Block3_2_Cliecked
-        Block3_2_Cliecked();
+        //Call Block3_2_Clicked
+        Block3_2_Clicked();
     }
     if (&src == &Block3_3)
     {
@@ -579,8 +579,8 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
     {
         //Block3_7_Interaction
         //When Block3_7 clicked call virtual function
-        //Call Block3_7_Cliecked
-        Block3_7_Cliecked();
+        //Call Block3_7_Clicked
+        Block3_7_Clicked();
     }
     if (&src == &Block3_8)
     {
@@ -593,8 +593,8 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
     {
         //Block3_9_Interaction
         //When Block3_9 clicked call virtual function
-        //Call Block3_7_Clicked
-        Block3_7_Clicked();
+        //Call Block3_9_Clicked
+        Block3_9_Clicked();
     }
     if (&src == &Block4_1)
     {
