@@ -4759,12 +4759,6 @@ Discarded input sections
  .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
  .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
  .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
- .group         0x00000000        0x8 ./Application/User/gui/GameScreen1View.o
  .group         0x00000000       0x14 ./Application/User/gui/GameScreen1View.o
  .group         0x00000000        0xc ./Application/User/gui/GameScreen1View.o
  .group         0x00000000        0xc ./Application/User/gui/GameScreen1View.o
@@ -4810,18 +4804,6 @@ Discarded input sections
  .text._ZN8touchgfx6Screen15handleTickEventEv
                 0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
  .text._ZN8touchgfx6Screen14handleKeyEventEh
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block1_8_ClieckedEv
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block1_9_ClieckedEv
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block2_1_ClieckedEv
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block2_3_ClieckedEv
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block3_2_ClieckedEv
-                0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
- .text._ZN19GameScreen1ViewBase17Block3_7_ClieckedEv
                 0x00000000        0x2 ./Application/User/gui/GameScreen1View.o
  .debug_macro   0x00000000      0xb98 ./Application/User/gui/GameScreen1View.o
  .debug_macro   0x00000000      0x1d6 ./Application/User/gui/GameScreen1View.o
@@ -14966,21 +14948,21 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .text._ZN19GameScreen1ViewBase16Block1_7_ClickedEv
                 0x08003258        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003258                GameScreen1ViewBase::Block1_7_Clicked()
- .text._ZN19GameScreen1ViewBase17Block1_8_ClieckedEv
+ .text._ZN19GameScreen1ViewBase16Block1_8_ClickedEv
                 0x0800325a        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x0800325a                GameScreen1ViewBase::Block1_8_Cliecked()
- .text._ZN19GameScreen1ViewBase17Block1_9_ClieckedEv
+                0x0800325a                GameScreen1ViewBase::Block1_8_Clicked()
+ .text._ZN19GameScreen1ViewBase16Block1_9_ClickedEv
                 0x0800325c        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x0800325c                GameScreen1ViewBase::Block1_9_Cliecked()
- .text._ZN19GameScreen1ViewBase17Block2_1_ClieckedEv
+                0x0800325c                GameScreen1ViewBase::Block1_9_Clicked()
+ .text._ZN19GameScreen1ViewBase16Block2_1_ClickedEv
                 0x0800325e        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x0800325e                GameScreen1ViewBase::Block2_1_Cliecked()
+                0x0800325e                GameScreen1ViewBase::Block2_1_Clicked()
  .text._ZN19GameScreen1ViewBase16Block2_2_ClickedEv
                 0x08003260        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003260                GameScreen1ViewBase::Block2_2_Clicked()
- .text._ZN19GameScreen1ViewBase17Block2_3_ClieckedEv
+ .text._ZN19GameScreen1ViewBase16Block2_3_ClickedEv
                 0x08003262        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x08003262                GameScreen1ViewBase::Block2_3_Cliecked()
+                0x08003262                GameScreen1ViewBase::Block2_3_Clicked()
  .text._ZN19GameScreen1ViewBase16Block2_4_ClickedEv
                 0x08003264        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003264                GameScreen1ViewBase::Block2_4_Clicked()
@@ -15002,9 +14984,9 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .text._ZN19GameScreen1ViewBase16Block3_1_ClickedEv
                 0x08003270        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003270                GameScreen1ViewBase::Block3_1_Clicked()
- .text._ZN19GameScreen1ViewBase17Block3_2_ClieckedEv
+ .text._ZN19GameScreen1ViewBase16Block3_2_ClickedEv
                 0x08003272        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x08003272                GameScreen1ViewBase::Block3_2_Cliecked()
+                0x08003272                GameScreen1ViewBase::Block3_2_Clicked()
  .text._ZN19GameScreen1ViewBase16Block3_3_ClickedEv
                 0x08003274        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003274                GameScreen1ViewBase::Block3_3_Clicked()
@@ -15017,15 +14999,15 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .text._ZN19GameScreen1ViewBase16Block3_6_ClickedEv
                 0x0800327a        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x0800327a                GameScreen1ViewBase::Block3_6_Clicked()
- .text._ZN19GameScreen1ViewBase17Block3_7_ClieckedEv
+ .text._ZN19GameScreen1ViewBase16Block3_7_ClickedEv
                 0x0800327c        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x0800327c                GameScreen1ViewBase::Block3_7_Cliecked()
+                0x0800327c                GameScreen1ViewBase::Block3_7_Clicked()
  .text._ZN19GameScreen1ViewBase16Block3_8_ClickedEv
                 0x0800327e        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x0800327e                GameScreen1ViewBase::Block3_8_Clicked()
- .text._ZN19GameScreen1ViewBase16Block3_7_ClickedEv
+ .text._ZN19GameScreen1ViewBase16Block3_9_ClickedEv
                 0x08003280        0x2 ./Application/User/generated/GameScreen1ViewBase.o
-                0x08003280                GameScreen1ViewBase::Block3_7_Clicked()
+                0x08003280                GameScreen1ViewBase::Block3_9_Clicked()
  .text._ZN19GameScreen1ViewBase16Block4_1_ClickedEv
                 0x08003282        0x2 ./Application/User/generated/GameScreen1ViewBase.o
                 0x08003282                GameScreen1ViewBase::Block4_1_Clicked()
@@ -18019,7 +18001,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .iplt           0x08034fe8        0x0
  .iplt          0x08034fe8        0x0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.rodata         0x08034fe8     0x5368
+.rodata         0x08034fe8     0x5350
                 0x08034fe8                        . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x08034fe8       0x40 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Container.o)
@@ -18165,493 +18147,493 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x080370c4       0x28 ./Application/User/gui/GameScreen1Presenter.o
                 0x080370c4                vtable for GameScreen1Presenter
  .rodata._ZTV15GameScreen1View
-                0x080370ec      0x148 ./Application/User/gui/GameScreen1View.o
+                0x080370ec      0x130 ./Application/User/gui/GameScreen1View.o
                 0x080370ec                vtable for GameScreen1View
  .rodata.MSIRangeTable
-                0x08037234       0x40 ./Drivers/CMSIS/system_stm32u5xx.o
-                0x08037234                MSIRangeTable
+                0x0803721c       0x40 ./Drivers/CMSIS/system_stm32u5xx.o
+                0x0803721c                MSIRangeTable
  .rodata.APBPrescTable
-                0x08037274        0x8 ./Drivers/CMSIS/system_stm32u5xx.o
-                0x08037274                APBPrescTable
+                0x0803725c        0x8 ./Drivers/CMSIS/system_stm32u5xx.o
+                0x0803725c                APBPrescTable
  .rodata.AHBPrescTable
-                0x0803727c       0x10 ./Drivers/CMSIS/system_stm32u5xx.o
-                0x0803727c                AHBPrescTable
+                0x08037264       0x10 ./Drivers/CMSIS/system_stm32u5xx.o
+                0x08037264                AHBPrescTable
  .rodata.LPGPIO_Map
-                0x0803728c       0x80 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+                0x08037274       0x80 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
  .rodata.JPEG_CHROM_QuantTable.0
-                0x0803730c       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x080372f4       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_LUM_QuantTable.1
-                0x0803734c       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x08037334       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_ZIGZAG_ORDER
-                0x0803738c       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x08037374       0x40 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_ACCHROM_HuffTable
-                0x080373cc       0xb2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x080373b4       0xb2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_ACLUM_HuffTable
-                0x0803747e       0xb2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x08037466       0xb2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_DCCHROM_HuffTable
-                0x08037530       0x1c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x08037518       0x1c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.JPEG_DCLUM_HuffTable
-                0x0803754c       0x1c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x08037534       0x1c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .rodata.vTaskStartScheduler.str1.1
-                0x08037568        0x5 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+                0x08037550        0x5 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
  .rodata.prvCheckForValidListAndQueue.str1.1
-                0x0803756d        0x5 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+                0x08037555        0x5 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
  .rodata.xTimerCreateTimerTask.str1.1
-                0x08037572        0x8 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
- *fill*         0x0803757a        0x2 
+                0x0803755a        0x8 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+ *fill*         0x08037562        0x2 
  .rodata._ZTVN8touchgfx17AbstractPartitionE
-                0x0803757c       0x34 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(AbstractPartition.o)
-                0x0803757c                vtable for touchgfx::AbstractPartition
+                0x08037564       0x34 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(AbstractPartition.o)
+                0x08037564                vtable for touchgfx::AbstractPartition
  .rodata._ZTVN8touchgfx9ContainerE
-                0x080375b0       0x90 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Container.o)
-                0x080375b0                vtable for touchgfx::Container
+                0x08037598       0x90 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Container.o)
+                0x08037598                vtable for touchgfx::Container
  .rodata.CSWTCH.170
-                0x08037640        0xc ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(HAL.o)
+                0x08037628        0xc ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(HAL.o)
  .rodata._ZTVN8touchgfx17LockFreeDMA_QueueE
-                0x0803764c       0x24 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(DMA.o)
-                0x0803764c                vtable for touchgfx::LockFreeDMA_Queue
+                0x08037634       0x24 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(DMA.o)
+                0x08037634                vtable for touchgfx::LockFreeDMA_Queue
  .rodata._ZTVN8touchgfx3BoxE
-                0x08037670       0x68 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Box.o)
-                0x08037670                vtable for touchgfx::Box
+                0x08037658       0x68 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Box.o)
+                0x08037658                vtable for touchgfx::Box
  .rodata._ZTVN8touchgfx14ButtonWithIconE
-                0x080376d8       0x78 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(ButtonWithIcon.o)
-                0x080376d8                vtable for touchgfx::ButtonWithIcon
+                0x080376c0       0x78 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(ButtonWithIcon.o)
+                0x080376c0                vtable for touchgfx::ButtonWithIcon
  .rodata._ZTVN8touchgfx5ImageE
-                0x08037750       0x6c ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Image.o)
-                0x08037750                vtable for touchgfx::Image
+                0x08037738       0x6c ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Image.o)
+                0x08037738                vtable for touchgfx::Image
  .rodata._ZTVN8touchgfx11ApplicationE
-                0x080377bc       0x54 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Application.o)
-                0x080377bc                vtable for touchgfx::Application
+                0x080377a4       0x54 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Application.o)
+                0x080377a4                vtable for touchgfx::Application
  .rodata._ZTVN8touchgfx22VectorFontRendererImplE
-                0x08037810       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(VectorFontRendererImpl.o)
-                0x08037810                vtable for touchgfx::VectorFontRendererImpl
+                0x080377f8       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(VectorFontRendererImpl.o)
+                0x080377f8                vtable for touchgfx::VectorFontRendererImpl
  .rodata._ZTVN8touchgfx9ConstFontE
-                0x08037824       0x68 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(ConstFont.o)
-                0x08037824                vtable for touchgfx::ConstFont
+                0x0803780c       0x68 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(ConstFont.o)
+                0x0803780c                vtable for touchgfx::ConstFont
  .rodata._ZTVN8touchgfx10ClickEventE
-                0x0803788c       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x0803788c                vtable for touchgfx::ClickEvent
+                0x08037874       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x08037874                vtable for touchgfx::ClickEvent
  .rodata._ZTVN8touchgfx9DragEventE
-                0x080378a0       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x080378a0                vtable for touchgfx::DragEvent
+                0x08037888       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x08037888                vtable for touchgfx::DragEvent
  .rodata._ZTVN8touchgfx12GestureEventE
-                0x080378b4       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x080378b4                vtable for touchgfx::GestureEvent
+                0x0803789c       0x14 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x0803789c                vtable for touchgfx::GestureEvent
  .rodata._ZTVN8touchgfx6ScreenE
-                0x080378c8       0x34 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x080378c8                vtable for touchgfx::Screen
+                0x080378b0       0x34 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x080378b0                vtable for touchgfx::Screen
  .rodata.CSWTCH.78
-                0x080378fc       0x4a ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_graphics.o)
- *fill*         0x08037946        0x2 
+                0x080378e4       0x4a ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_graphics.o)
+ *fill*         0x0803792e        0x2 
  .rodata.CSWTCH.89
-                0x08037948       0x56 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_graphics.o)
- *fill*         0x0803799e        0x2 
+                0x08037930       0x56 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_graphics.o)
+ *fill*         0x08037986        0x2 
  .rodata.bf.8938
-                0x080379a0       0x40 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
+                0x08037988       0x40 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
  .rodata.cmd_add.8493
-                0x080379e0        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
+                0x080379c8        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
  .rodata.cmd_fillsrcover.9043
-                0x080379e8        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
+                0x080379d0        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
  .rodata.cmd_pix3.9042
-                0x080379f0        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
+                0x080379d8        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
  .rodata.cmd_sub.8494
-                0x080379f8        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
+                0x080379e0        0x8 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_vg.o)
  .rodata.PRE_TEX
-                0x08037a00       0x10 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
+                0x080379e8       0x10 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
  .rodata.bl_a1.7151
-                0x08037a10       0x30 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
+                0x080379f8       0x30 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
  .rodata.bl_r1.7150
-                0x08037a40       0x30 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
+                0x08037a28       0x30 ../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc\libnemagfx-float-abi-hard.a(nema_blender.o)
  .rodata._ZN8touchgfx8HALGPU2D10initializeEi.part.2.str1.4
-                0x08037a70       0x7a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
- *fill*         0x08037aea        0x2 
+                0x08037a58       0x7a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
+ *fill*         0x08037ad2        0x2 
  .rodata._ZTVN8touchgfx8HALGPU2DE
-                0x08037aec       0xd8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
-                0x08037aec                vtable for touchgfx::HALGPU2D
+                0x08037ad4       0xd8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
+                0x08037ad4                vtable for touchgfx::HALGPU2D
  .rodata._ZZN8touchgfx8HALGPU2D10initializeEiE19__PRETTY_FUNCTION__
-                0x08037bc4       0x29 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
- *fill*         0x08037bed        0x3 
+                0x08037bac       0x29 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(HALGPU2D.o)
+ *fill*         0x08037bd5        0x3 
  .rodata._ZN8touchgfx8LCDGPU2D10blitCopyL8EPKhS2_RKNS_4RectES5_h.str1.4
-                0x08037bf0      0x19a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08037d8a        0x2 
+                0x08037bd8      0x19a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08037d72        0x2 
  .rodata._ZN8touchgfx8LCDGPU2D18drawTextureMapQuadERKNS_14DrawingSurfaceEPKNS_7Point3DERKNS_14TextureSurfaceERKNS_4RectESC_tht.str1.4
-                0x08037d8c       0x40 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08037d74       0x40 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZN8touchgfx8LCDGPU2D20setFrameBufferFormatENS_6Bitmap12BitmapFormatE.str1.4
-                0x08037dcc       0xc8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08037db4       0xc8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZN8touchgfx8LCDGPU2D22bindFrameBufferTextureEv.str1.4
-                0x08037e94       0xc6 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08037f5a        0x2 
+                0x08037e7c       0xc6 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08037f42        0x2 
  .rodata._ZN8touchgfx8LCDGPU2D23blitCopyL8_RGB888_16BPPEPKhS2_RKNS_4RectES5_h.str1.4
-                0x08037f5c       0x4e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08037faa        0x2 
+                0x08037f44       0x4e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08037f92        0x2 
  .rodata._ZN8touchgfx8LCDGPU2D25blitCopyL8_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_h.str1.4
-                0x08037fac       0x50 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08037f94       0x50 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZN8touchgfx8LCDGPU2D26blitCopyL8_L4_RGB888_16BPPEPKhS2_RKNS_4RectES5_h.str1.4
-                0x08037ffc       0x2d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038029        0x3 
+                0x08037fe4       0x2d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038011        0x3 
  .rodata._ZN8touchgfx8LCDGPU2D28blitCopyL8_L4_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_h.str1.4
-                0x0803802c       0x2f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803805b        0x1 
+                0x08038014       0x2f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038043        0x1 
  .rodata._ZN8touchgfx8LCDGPU2D28getTextureMapperDrawScanLineERKNS_14TextureSurfaceEth.str1.4
-                0x0803805c       0xe0 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038044       0xe0 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZN8touchgfx8LCDGPU2D29copyFrameBufferRegionToMemoryERKNS_4RectES3_Phss.str1.4
-                0x0803813c      0x156 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038292        0x2 
+                0x08038124      0x156 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803827a        0x2 
  .rodata._ZN8touchgfx8LCDGPU2D29copyFrameBufferRegionToMemoryERKNS_4RectES3_t.str1.4
-                0x08038294       0x96 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803832a        0x2 
+                0x0803827c       0x96 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038312        0x2 
  .rodata._ZN8touchgfx8LCDGPU2D61TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_GA16writePixelOnEdgeEPtPKhS4_ssiihhh.str1.4
-                0x0803832c       0x11 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803833d        0x3 
+                0x08038314       0x11 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038325        0x3 
  .rodata._ZN8touchgfx8LCDGPU2D8blitCopyEPKhNS_6Bitmap12BitmapFormatERKNS_4RectES7_hb.part.6.str1.4
-                0x08038340       0x38 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038328       0x38 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZN8touchgfx8LCDGPU2D9drawGlyphEPtNS_4RectEssttRKS2_PKNS_9GlyphNodeEPKhhNS_9colortypeEhhNS_12TextRotationE.str1.4
-                0x08038378       0xf6 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803846e        0x2 
+                0x08038360       0xf6 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038456        0x2 
  .rodata._ZNK8touchgfx8LCDGPU2D17framebufferStrideEv.str1.4
-                0x08038470       0x75 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080384e5        0x3 
+                0x08038458       0x75 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080384cd        0x3 
  .rodata._ZTVN8touchgfx8LCDGPU2D55TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_GAE
-                0x080384e8       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080384e8                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_GA
+                0x080384d0       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080384d0                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D55TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_GAE
-                0x080384fc       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080384fc                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_GA
+                0x080384e4       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080384e4                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D55TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_GAE
-                0x08038510       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038510                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_GA
+                0x080384f8       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080384f8                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D57TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_NoGAE
-                0x08038524       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038524                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                0x0803850c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x0803850c                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D57TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_NoGAE
-                0x08038538       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038538                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                0x08038520       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038520                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D57TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_NoGAE
-                0x0803854c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x0803854c                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                0x08038534       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038534                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D60TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GAE
-                0x08038560       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038560                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                0x08038548       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038548                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D60TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GAE
-                0x08038574       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038574                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                0x0803855c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x0803855c                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D60TextureMapper_32BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GAE
-                0x08038588       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038588                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                0x08038570       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038570                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D61TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_GAE
-                0x0803859c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x0803859c                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
+                0x08038584       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038584                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D61TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_GAE
-                0x080385b0       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080385b0                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
+                0x08038598       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038598                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D61TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_GAE
-                0x080385c4       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080385c4                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
+                0x080385ac       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080385ac                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D62TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGAE
-                0x080385d8       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080385d8                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                0x080385c0       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080385c0                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D62TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGAE
-                0x080385ec       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080385ec                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                0x080385d4       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080385d4                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D63TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGAE
-                0x08038600       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038600                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                0x080385e8       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080385e8                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D63TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGAE
-                0x08038614       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038614                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                0x080385fc       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080385fc                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D63TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGAE
-                0x08038628       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038628                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                0x08038610       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038610                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_RGB888_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D66TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GAE
-                0x0803863c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x0803863c                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                0x08038624       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038624                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D66TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GAE
-                0x08038650       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038650                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                0x08038638       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038638                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D66TextureMapper_32BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GAE
-                0x08038664       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038664                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                0x0803864c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x0803864c                vtable for touchgfx::LCDGPU2D::TextureMapper_32BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCDGPU2D68TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGAE
-                0x08038678       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x08038678                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                0x08038660       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038660                vtable for touchgfx::LCDGPU2D::TextureMapper_16BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2D68TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGAE
-                0x0803868c       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x0803868c                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                0x08038674       0x14 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038674                vtable for touchgfx::LCDGPU2D::TextureMapper_24BPP_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCDGPU2DE
-                0x080386a0       0x60 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
-                0x080386a0                vtable for touchgfx::LCDGPU2D
+                0x08038688       0x60 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038688                vtable for touchgfx::LCDGPU2D
  .rodata._ZZN8touchgfx8HALGPU2D11getInstanceEvE19__PRETTY_FUNCTION__
-                0x08038700       0x3d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803873d        0x3 
+                0x080386e8       0x3d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038725        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D10blitCopyL8EPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038740       0x7b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080387bb        0x1 
+                0x08038728       0x7b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080387a3        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D10fillBufferEPhtRKNS_4RectENS_9colortypeEhE19__PRETTY_FUNCTION__
-                0x080387bc       0x75 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038831        0x3 
+                0x080387a4       0x75 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038819        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D17drawPartialBitmapERKNS_6BitmapEssRKNS_4RectEhbE19__PRETTY_FUNCTION__
-                0x08038834       0x84 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x0803881c       0x84 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D18drawTextureMapQuadERKNS_14DrawingSurfaceEPKNS_7Point3DERKNS_14TextureSurfaceERKNS_4RectESC_thtE19__PRETTY_FUNCTION__
-                0x080388b8       0xed ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080389a5        0x3 
+                0x080388a0       0xed ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803898d        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D20bilinearInterpolate8EhhhhhhE19__PRETTY_FUNCTION__
-                0x080389a8       0x6e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038a16        0x2 
+                0x08038990       0x6e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080389fe        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D20setFrameBufferFormatENS_6Bitmap12BitmapFormatEE19__PRETTY_FUNCTION__
-                0x08038a18       0x4e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038a66        0x2 
+                0x08038a00       0x4e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038a4e        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D22bindFrameBufferTextureEvE19__PRETTY_FUNCTION__
-                0x08038a68       0x3a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038aa2        0x2 
+                0x08038a50       0x3a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038a8a        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D22drawTextureMapTriangleERKNS_14DrawingSurfaceEPKNS_7Point3DERKNS_14TextureSurfaceERKNS_4RectESC_thtE19__PRETTY_FUNCTION__
-                0x08038aa4       0xf1 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038b95        0x3 
+                0x08038a8c       0xf1 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038b7d        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D23blitCopyL8_RGB888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038b98       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038b80       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D23blitCopyL8_RGB888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038c20       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038c08       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D23blitCopyL8_RGB888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038ca8       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08038c90       0x88 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D25blitCopyL8_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038d30       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038dba        0x2 
+                0x08038d18       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038da2        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D25blitCopyL8_ARGB8888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038dbc       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038e46        0x2 
+                0x08038da4       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038e2e        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D25blitCopyL8_ARGB8888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038e48       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038ed2        0x2 
+                0x08038e30       0x8a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038eba        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D26blitCopyL8_L4_RGB888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038ed4       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038f5f        0x1 
+                0x08038ebc       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038f47        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D26blitCopyL8_L4_RGB888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038f60       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08038feb        0x1 
+                0x08038f48       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08038fd3        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D26blitCopyL8_L4_RGB888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08038fec       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039077        0x1 
+                0x08038fd4       0x8b ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803905f        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D27blitCopyL8_RLE_RGB888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039078       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08039060       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D27blitCopyL8_RLE_RGB888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039104       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x080390ec       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D27blitCopyL8_RLE_RGB888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039190       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+                0x08039178       0x8c ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_L4_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x0803921c       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080392a9        0x3 
+                0x08039204       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039291        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_L4_ARGB8888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x080392ac       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039339        0x3 
+                0x08039294       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039321        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_L4_ARGB8888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x0803933c       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080393c9        0x3 
+                0x08039324       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080393b1        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_LZW9_RGB888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x080393cc       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039459        0x3 
+                0x080393b4       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039441        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_LZW9_RGB888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x0803945c       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080394e9        0x3 
+                0x08039444       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080394d1        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28blitCopyL8_LZW9_RGB888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x080394ec       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039579        0x3 
+                0x080394d4       0x8d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039561        0x3 
  .rodata._ZZN8touchgfx8LCDGPU2D28getTextureMapperDrawScanLineERKNS_14TextureSurfaceEthE19__PRETTY_FUNCTION__
-                0x0803957c       0xaa ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039626        0x2 
+                0x08039564       0xaa ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803960e        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D29blitCopyL8_RLE_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039628       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080396b6        0x2 
+                0x08039610       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803969e        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D29blitCopyL8_RLE_ARGB8888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x080396b8       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039746        0x2 
+                0x080396a0       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803972e        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D29blitCopyL8_RLE_ARGB8888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039748       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080397d6        0x2 
+                0x08039730       0x8e ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080397be        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D29copyFrameBufferRegionToMemoryERKNS_4RectES3_PhssE19__PRETTY_FUNCTION__
-                0x080397d8       0x93 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x0803986b        0x1 
+                0x080397c0       0x93 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039853        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D29copyFrameBufferRegionToMemoryERKNS_4RectES3_tE19__PRETTY_FUNCTION__
-                0x0803986c       0x86 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x080398f2        0x2 
+                0x08039854       0x86 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080398da        0x2 
  .rodata._ZZN8touchgfx8LCDGPU2D30blitCopyL8_LZW9_ARGB8888_16BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x080398f4       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039983        0x1 
+                0x080398dc       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x0803996b        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D30blitCopyL8_LZW9_ARGB8888_24BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039984       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039a13        0x1 
+                0x0803996c       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x080399fb        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D30blitCopyL8_LZW9_ARGB8888_32BPPEPKhS2_RKNS_4RectES5_hE19__PRETTY_FUNCTION__
-                0x08039a14       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039aa3        0x1 
+                0x080399fc       0x8f ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039a8b        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D8blitCopyEPKhNS_6Bitmap12BitmapFormatERKNS_4RectES7_hbE19__PRETTY_FUNCTION__
-                0x08039aa4       0x97 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039b3b        0x1 
+                0x08039a8c       0x97 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039b23        0x1 
  .rodata._ZZN8touchgfx8LCDGPU2D9drawGlyphEPtNS_4RectEssttRKS2_PKNS_9GlyphNodeEPKhhNS_9colortypeEhhNS_12TextRotationEE19__PRETTY_FUNCTION__
-                0x08039b3c       0xf7 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039c33        0x1 
+                0x08039b24       0xf7 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039c1b        0x1 
  .rodata._ZZNK8touchgfx8LCDGPU2D20getFramebufferStrideEvE19__PRETTY_FUNCTION__
-                0x08039c34       0x3a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
- *fill*         0x08039c6e        0x2 
+                0x08039c1c       0x3a ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
+ *fill*         0x08039c56        0x2 
  .rodata._ZN8touchgfx19GPU2DVectorRenderer17setLinearGradientEffffmPKfPKmffbS4_.str1.4
-                0x08039c70        0xc ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039c58        0xc ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
  .rodata._ZN8touchgfx19GPU2DVectorRenderer17setRadialGradientEfffmPKfPKNS_9colortypeE.str1.4
-                0x08039c7c        0xb ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
- *fill*         0x08039c87        0x1 
+                0x08039c64        0xb ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+ *fill*         0x08039c6f        0x1 
  .rodata._ZN8touchgfx19GPU2DVectorRenderer5setupERKNS_4RectES3_.str1.4
-                0x08039c88       0x2d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039c70       0x2d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
                                  0xd1 (size before relaxing)
- *fill*         0x08039cb5        0x3 
+ *fill*         0x08039c9d        0x3 
  .rodata._ZTVN8touchgfx19GPU2DVectorRendererE
-                0x08039cb8       0x44 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
-                0x08039cb8                vtable for touchgfx::GPU2DVectorRenderer
+                0x08039ca0       0x44 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039ca0                vtable for touchgfx::GPU2DVectorRenderer
  .rodata._ZZN8touchgfx19GPU2DVectorRenderer17setLinearGradientEffffmPKfPKmffbS4_E19__PRETTY_FUNCTION__
-                0x08039cfc       0xa8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039ce4       0xa8 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
  .rodata._ZZN8touchgfx19GPU2DVectorRenderer17setRadialGradientEfffmPKfPKNS_9colortypeEE19__PRETTY_FUNCTION__
-                0x08039da4       0x87 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
- *fill*         0x08039e2b        0x1 
+                0x08039d8c       0x87 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+ *fill*         0x08039e13        0x1 
  .rodata._ZZN8touchgfx19GPU2DVectorRenderer5setupERKNS_4RectES3_E19__PRETTY_FUNCTION__
-                0x08039e2c       0x60 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039e14       0x60 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
  .rodata._ZZN8touchgfx8HALGPU2D11getInstanceEvE19__PRETTY_FUNCTION__
-                0x08039e8c       0x3d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x08039e74       0x3d ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
  .rodata.acosf.str1.1
-                0x08039ec9        0x8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_acos.o)
+                0x08039eb1        0x8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_acos.o)
                                   0x1 (size before relaxing)
- *fill*         0x08039ec9        0x3 
+ *fill*         0x08039eb1        0x3 
  .rodata.atanlo
-                0x08039ecc       0x10 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
+                0x08039eb4       0x10 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
  .rodata.atanhi
-                0x08039edc       0x10 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
+                0x08039ec4       0x10 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
  .rodata.CSWTCH.9
-                0x08039eec        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
+                0x08039ed4        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
  .rodata.CSWTCH.8
-                0x08039ef8        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
- .rodata.Zero   0x08039f04        0x8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_fmod.o)
+                0x08039ee0        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
+ .rodata.Zero   0x08039eec        0x8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_fmod.o)
  .rodata.npio2_hw
-                0x08039f0c       0x80 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+                0x08039ef4       0x80 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x08039f8c      0x318 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
- .rodata.PIo2   0x0803a2a4       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x08039f74      0x318 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x0803a28c       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x0803a2d0        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+                0x0803a2b8        0xc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
  .rodata.__assert_func.str1.1
-                0x0803a2dc       0x3c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-assert.o)
+                0x0803a2c4       0x3c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata.__on_exit_args
-                0x0803a318        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-on_exit_args.o)
-                0x0803a318                __on_exit_args
+                0x0803a300        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-on_exit_args.o)
+                0x0803a300                __on_exit_args
  .rodata._vfprintf_r.str1.1
-                0x0803a31c       0x11 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x0803a304       0x11 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x0803a32d       0x22 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0803a350                        . = ALIGN (0x4)
- *fill*         0x0803a34f        0x1 
+                0x0803a315       0x22 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0803a338                        . = ALIGN (0x4)
+ *fill*         0x0803a337        0x1 
 
 FontFlashSection
-                0x0803a350      0x1a6
+                0x0803a338      0x1a6
  FontFlashSection
-                0x0803a350       0x18 ./Application/User/generated/Font_verdana_10_4bpp_0.o
-                0x0803a350                unicodes_verdana_10_4bpp_0
+                0x0803a338       0x18 ./Application/User/generated/Font_verdana_10_4bpp_0.o
+                0x0803a338                unicodes_verdana_10_4bpp_0
  FontFlashSection
-                0x0803a368       0x46 ./Application/User/generated/Font_verdana_20_4bpp_0.o
-                0x0803a368                unicodes_verdana_20_4bpp_0
- *fill*         0x0803a3ae        0x2 
+                0x0803a350       0x46 ./Application/User/generated/Font_verdana_20_4bpp_0.o
+                0x0803a350                unicodes_verdana_20_4bpp_0
+ *fill*         0x0803a396        0x2 
  FontFlashSection
-                0x0803a3b0      0x117 ./Application/User/generated/Font_verdana_40_4bpp_0.o
-                0x0803a3b0                unicodes_verdana_40_4bpp_0
- *fill*         0x0803a4c7        0x1 
+                0x0803a398      0x117 ./Application/User/generated/Font_verdana_40_4bpp_0.o
+                0x0803a398                unicodes_verdana_40_4bpp_0
+ *fill*         0x0803a4af        0x1 
  FontFlashSection
-                0x0803a4c8        0xe ./Application/User/generated/Table_verdana_10_4bpp.o
-                0x0803a4c8                glyphs_verdana_10_4bpp
- *fill*         0x0803a4d6        0x2 
+                0x0803a4b0        0xe ./Application/User/generated/Table_verdana_10_4bpp.o
+                0x0803a4b0                glyphs_verdana_10_4bpp
+ *fill*         0x0803a4be        0x2 
  FontFlashSection
-                0x0803a4d8        0xe ./Application/User/generated/Table_verdana_20_4bpp.o
-                0x0803a4d8                glyphs_verdana_20_4bpp
- *fill*         0x0803a4e6        0x2 
+                0x0803a4c0        0xe ./Application/User/generated/Table_verdana_20_4bpp.o
+                0x0803a4c0                glyphs_verdana_20_4bpp
+ *fill*         0x0803a4ce        0x2 
  FontFlashSection
-                0x0803a4e8        0xe ./Application/User/generated/Table_verdana_40_4bpp.o
-                0x0803a4e8                glyphs_verdana_40_4bpp
+                0x0803a4d0        0xe ./Application/User/generated/Table_verdana_40_4bpp.o
+                0x0803a4d0                glyphs_verdana_40_4bpp
 
 FontSearchFlashSection
-                0x0803a4f8       0x18
+                0x0803a4e0       0x18
  FontSearchFlashSection
-                0x0803a4f8        0x4 ./Application/User/generated/Kerning_verdana_10_4bpp.o
-                0x0803a4f8                kerning_verdana_10_4bpp
+                0x0803a4e0        0x4 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+                0x0803a4e0                kerning_verdana_10_4bpp
  FontSearchFlashSection
-                0x0803a4fc        0x4 ./Application/User/generated/Kerning_verdana_20_4bpp.o
-                0x0803a4fc                kerning_verdana_20_4bpp
+                0x0803a4e4        0x4 ./Application/User/generated/Kerning_verdana_20_4bpp.o
+                0x0803a4e4                kerning_verdana_20_4bpp
  FontSearchFlashSection
-                0x0803a500        0x4 ./Application/User/generated/Kerning_verdana_40_4bpp.o
-                0x0803a500                kerning_verdana_40_4bpp
+                0x0803a4e8        0x4 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+                0x0803a4e8                kerning_verdana_40_4bpp
  FontSearchFlashSection
-                0x0803a504        0x4 ./Application/User/generated/Table_verdana_10_4bpp.o
-                0x0803a504                unicodes_verdana_10_4bpp
+                0x0803a4ec        0x4 ./Application/User/generated/Table_verdana_10_4bpp.o
+                0x0803a4ec                unicodes_verdana_10_4bpp
  FontSearchFlashSection
-                0x0803a508        0x4 ./Application/User/generated/Table_verdana_20_4bpp.o
-                0x0803a508                unicodes_verdana_20_4bpp
+                0x0803a4f0        0x4 ./Application/User/generated/Table_verdana_20_4bpp.o
+                0x0803a4f0                unicodes_verdana_20_4bpp
  FontSearchFlashSection
-                0x0803a50c        0x4 ./Application/User/generated/Table_verdana_40_4bpp.o
-                0x0803a50c                unicodes_verdana_40_4bpp
+                0x0803a4f4        0x4 ./Application/User/generated/Table_verdana_40_4bpp.o
+                0x0803a4f4                unicodes_verdana_40_4bpp
 
 TextFlashSection
-                0x0803a510        0xe
+                0x0803a4f8        0xe
  TextFlashSection
-                0x0803a510        0x4 ./Application/User/generated/LanguageGb.o
-                0x0803a510                indicesGb
+                0x0803a4f8        0x4 ./Application/User/generated/LanguageGb.o
+                0x0803a4f8                indicesGb
  TextFlashSection
-                0x0803a514        0x2 ./Application/User/generated/Texts.o
-                0x0803a514                texts_all_languages
- *fill*         0x0803a516        0x2 
+                0x0803a4fc        0x2 ./Application/User/generated/Texts.o
+                0x0803a4fc                texts_all_languages
+ *fill*         0x0803a4fe        0x2 
  TextFlashSection
-                0x0803a518        0x6 ./Application/User/generated/TypedTextDatabase.o
-                0x0803a518                typedTextDatabaseArray
-                0x0803a51c                typedText_database_DEFAULT
+                0x0803a500        0x6 ./Application/User/generated/TypedTextDatabase.o
+                0x0803a500                typedTextDatabaseArray
+                0x0803a504                typedText_database_DEFAULT
 
-.ARM.extab      0x0803a51e        0x2
-                0x0803a520                        . = ALIGN (0x4)
- *fill*         0x0803a51e        0x2 
+.ARM.extab      0x0803a506        0x2
+                0x0803a508                        . = ALIGN (0x4)
+ *fill*         0x0803a506        0x2 
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0803a520                        . = ALIGN (0x4)
+                0x0803a508                        . = ALIGN (0x4)
 
-.ARM            0x0803a520        0x0
-                0x0803a520                        . = ALIGN (0x4)
-                0x0803a520                        __exidx_start = .
+.ARM            0x0803a508        0x0
+                0x0803a508                        . = ALIGN (0x4)
+                0x0803a508                        __exidx_start = .
  *(.ARM.exidx*)
-                0x0803a520                        __exidx_end = .
-                0x0803a520                        . = ALIGN (0x4)
+                0x0803a508                        __exidx_end = .
+                0x0803a508                        . = ALIGN (0x4)
 
-.preinit_array  0x0803a520        0x0
-                0x0803a520                        . = ALIGN (0x4)
-                0x0803a520                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0803a508        0x0
+                0x0803a508                        . = ALIGN (0x4)
+                0x0803a508                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0803a520                        PROVIDE (__preinit_array_end = .)
-                0x0803a520                        . = ALIGN (0x4)
+                0x0803a508                        PROVIDE (__preinit_array_end = .)
+                0x0803a508                        . = ALIGN (0x4)
 
-.init_array     0x0803a520       0x20
-                0x0803a520                        . = ALIGN (0x4)
-                0x0803a520                        PROVIDE (__init_array_start = .)
+.init_array     0x0803a508       0x20
+                0x0803a508                        . = ALIGN (0x4)
+                0x0803a508                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0803a520        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .init_array    0x0803a524        0x4 ./Application/User/TouchGFX/target/TouchGFXHAL.o
- .init_array    0x0803a528        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
- .init_array    0x0803a52c        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
- .init_array    0x0803a530        0x4 ./Application/User/generated/TypedTextDatabase.o
- .init_array    0x0803a534        0x4 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(LCD.o)
- .init_array    0x0803a538        0x4 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Application.o)
- .init_array    0x0803a53c        0x4 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
-                0x0803a540                        PROVIDE (__init_array_end = .)
-                0x0803a540                        . = ALIGN (0x4)
+ .init_array    0x0803a508        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .init_array    0x0803a50c        0x4 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+ .init_array    0x0803a510        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+ .init_array    0x0803a514        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+ .init_array    0x0803a518        0x4 ./Application/User/generated/TypedTextDatabase.o
+ .init_array    0x0803a51c        0x4 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(LCD.o)
+ .init_array    0x0803a520        0x4 ../../Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(Application.o)
+ .init_array    0x0803a524        0x4 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
+                0x0803a528                        PROVIDE (__init_array_end = .)
+                0x0803a528                        . = ALIGN (0x4)
 
-.fini_array     0x0803a540        0x8
-                0x0803a540                        . = ALIGN (0x4)
+.fini_array     0x0803a528        0x8
+                0x0803a528                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0803a540        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .fini_array    0x0803a544        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+ .fini_array    0x0803a528        0x4 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .fini_array    0x0803a52c        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0803a548                        . = ALIGN (0x4)
-                0x0803a548                        _sidata = LOADADDR (.data)
+                0x0803a530                        . = ALIGN (0x4)
+                0x0803a530                        _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x2a8 load address 0x0803a548
+.data           0x20000000      0x2a8 load address 0x0803a530
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -18770,11 +18752,11 @@ TextFlashSection
                 0x200002a8                        . = ALIGN (0x4)
                 0x200002a8                        _edata = .
 
-.igot.plt       0x200002a8        0x0 load address 0x0803a7f0
+.igot.plt       0x200002a8        0x0 load address 0x0803a7d8
  .igot.plt      0x200002a8        0x0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
                 0x200002a8                        . = ALIGN (0x4)
 
-.bss            0x200002a8    0x842c0 load address 0x0803a7f0
+.bss            0x200002a8    0x842c0 load address 0x0803a7d8
                 0x200002a8                        _sbss = .
                 0x200002a8                        __bss_start__ = _sbss
  *(.bss)
@@ -19280,7 +19262,7 @@ TextFlashSection
                 0x20084568                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20084568     0x2000 load address 0x0803a7f0
+                0x20084568     0x2000 load address 0x0803a7d8
                 0x20084568                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20084568                        PROVIDE (_end = .)
@@ -19735,7 +19717,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .rel.dyn        0xa00cc010        0x0
  .rel.iplt      0xa00cc010        0x0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.debug_info     0x00000000    0xbebfc
+.debug_info     0x00000000    0xbeaa0
  .debug_info    0x00000000      0x4b3 ./Application/User/Core/app_freertos.o
  .debug_info    0x000004b3     0x3b3f ./Application/User/Core/main.o
  .debug_info    0x00003ff2     0x339a ./Application/User/Core/stm32u5xx_hal_msp.o
@@ -19762,60 +19744,60 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_info    0x0004b8cb      0x1d4 ./Application/User/generated/Font_verdana_10_4bpp_0.o
  .debug_info    0x0004ba9f      0x1d4 ./Application/User/generated/Font_verdana_20_4bpp_0.o
  .debug_info    0x0004bc73      0x1d5 ./Application/User/generated/Font_verdana_40_4bpp_0.o
- .debug_info    0x0004be48     0xc57e ./Application/User/generated/FrontendApplicationBase.o
- .debug_info    0x000583c6    0x159b9 ./Application/User/generated/GameScreen1ViewBase.o
- .debug_info    0x0006dd7f     0x3f60 ./Application/User/generated/GeneratedFont.o
- .debug_info    0x00071cdf      0x6bb ./Application/User/generated/Kerning_verdana_10_4bpp.o
- .debug_info    0x0007239a      0x6bb ./Application/User/generated/Kerning_verdana_20_4bpp.o
- .debug_info    0x00072a55      0x6bb ./Application/User/generated/Kerning_verdana_40_4bpp.o
- .debug_info    0x00073110      0x208 ./Application/User/generated/LanguageGb.o
- .debug_info    0x00073318     0x1752 ./Application/User/generated/Table_verdana_10_4bpp.o
- .debug_info    0x00074a6a     0x1752 ./Application/User/generated/Table_verdana_20_4bpp.o
- .debug_info    0x000761bc     0x1754 ./Application/User/generated/Table_verdana_40_4bpp.o
- .debug_info    0x00077910     0x3fb8 ./Application/User/generated/Texts.o
- .debug_info    0x0007b8c8     0x16fb ./Application/User/generated/TypedTextDatabase.o
- .debug_info    0x0007cfc3     0x193a ./Application/User/generated/VectorFontRendererBuffers.o
- .debug_info    0x0007e8fd       0x61 ./Application/User/generated/image_BackScreen.o
- .debug_info    0x0007e95e       0x5f ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.o
- .debug_info    0x0007e9bd       0x5f ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.o
- .debug_info    0x0007ea1c       0x5f ./Application/User/generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.o
- .debug_info    0x0007ea7b       0x5f ./Application/User/generated/image_tiny_outline_disabled_number1.o
- .debug_info    0x0007eada       0x5f ./Application/User/generated/image_tiny_outline_disabled_number2.o
- .debug_info    0x0007eb39     0x3d75 ./Application/User/gui/FrontendApplication.o
- .debug_info    0x000828ae     0x5b5f ./Application/User/gui/GameScreen1Presenter.o
- .debug_info    0x0008840d     0x70f9 ./Application/User/gui/GameScreen1View.o
- .debug_info    0x0008f506      0x1b6 ./Application/User/gui/Model.o
- .debug_info    0x0008f6bc     0x2379 ./Drivers/BSP/mx66uw1g45g.o
- .debug_info    0x00091a35      0x951 ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_info    0x00092386     0x156b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_info    0x000938f1     0x192e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_info    0x0009521f      0x628 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
- .debug_info    0x00095847      0x3a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
- .debug_info    0x00095be8      0xe4d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
- .debug_info    0x00096a35      0xcd4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_info    0x00097709     0x1372 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
- .debug_info    0x00098a7b     0x27ea ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
- .debug_info    0x0009b265      0x929 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_info    0x0009bb8e      0x483 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
- .debug_info    0x0009c011     0x4062 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_info    0x000a0073      0xa45 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_info    0x000a0ab8      0x579 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
- .debug_info    0x000a1031     0x2711 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
- .debug_info    0x000a3742     0x1460 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
- .debug_info    0x000a4ba2     0x1026 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_info    0x000a5bc8     0x1675 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_info    0x000a723d     0x1b10 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_info    0x000a8d4d     0x479d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
- .debug_info    0x000ad4ea     0x23e1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
- .debug_info    0x000af8cb     0x27e7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
- .debug_info    0x000b20b2     0x4a2c ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
- .debug_info    0x000b6ade      0x2c3 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
- .debug_info    0x000b6da1      0x3d2 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
- .debug_info    0x000b7173      0x14e ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
- .debug_info    0x000b72c1     0x2532 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
- .debug_info    0x000b97f3     0x348d ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
- .debug_info    0x000bcc80     0x1a29 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
- .debug_info    0x000be6a9      0x553 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+ .debug_info    0x0004be48     0xc4f4 ./Application/User/generated/FrontendApplicationBase.o
+ .debug_info    0x0005833c    0x159b9 ./Application/User/generated/GameScreen1ViewBase.o
+ .debug_info    0x0006dcf5     0x3f60 ./Application/User/generated/GeneratedFont.o
+ .debug_info    0x00071c55      0x6bb ./Application/User/generated/Kerning_verdana_10_4bpp.o
+ .debug_info    0x00072310      0x6bb ./Application/User/generated/Kerning_verdana_20_4bpp.o
+ .debug_info    0x000729cb      0x6bb ./Application/User/generated/Kerning_verdana_40_4bpp.o
+ .debug_info    0x00073086      0x208 ./Application/User/generated/LanguageGb.o
+ .debug_info    0x0007328e     0x1752 ./Application/User/generated/Table_verdana_10_4bpp.o
+ .debug_info    0x000749e0     0x1752 ./Application/User/generated/Table_verdana_20_4bpp.o
+ .debug_info    0x00076132     0x1754 ./Application/User/generated/Table_verdana_40_4bpp.o
+ .debug_info    0x00077886     0x3fb8 ./Application/User/generated/Texts.o
+ .debug_info    0x0007b83e     0x16fb ./Application/User/generated/TypedTextDatabase.o
+ .debug_info    0x0007cf39     0x193a ./Application/User/generated/VectorFontRendererBuffers.o
+ .debug_info    0x0007e873       0x61 ./Application/User/generated/image_BackScreen.o
+ .debug_info    0x0007e8d4       0x5f ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.o
+ .debug_info    0x0007e933       0x5f ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.o
+ .debug_info    0x0007e992       0x5f ./Application/User/generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.o
+ .debug_info    0x0007e9f1       0x5f ./Application/User/generated/image_tiny_outline_disabled_number1.o
+ .debug_info    0x0007ea50       0x5f ./Application/User/generated/image_tiny_outline_disabled_number2.o
+ .debug_info    0x0007eaaf     0x3d75 ./Application/User/gui/FrontendApplication.o
+ .debug_info    0x00082824     0x5b5f ./Application/User/gui/GameScreen1Presenter.o
+ .debug_info    0x00088383     0x7027 ./Application/User/gui/GameScreen1View.o
+ .debug_info    0x0008f3aa      0x1b6 ./Application/User/gui/Model.o
+ .debug_info    0x0008f560     0x2379 ./Drivers/BSP/mx66uw1g45g.o
+ .debug_info    0x000918d9      0x951 ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_info    0x0009222a     0x156b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_info    0x00093795     0x192e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_info    0x000950c3      0x628 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+ .debug_info    0x000956eb      0x3a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+ .debug_info    0x00095a8c      0xe4d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+ .debug_info    0x000968d9      0xcd4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_info    0x000975ad     0x1372 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+ .debug_info    0x0009891f     0x27ea ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_info    0x0009b109      0x929 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_info    0x0009ba32      0x483 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+ .debug_info    0x0009beb5     0x4062 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_info    0x0009ff17      0xa45 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_info    0x000a095c      0x579 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+ .debug_info    0x000a0ed5     0x2711 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+ .debug_info    0x000a35e6     0x1460 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+ .debug_info    0x000a4a46     0x1026 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_info    0x000a5a6c     0x1675 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_info    0x000a70e1     0x1b10 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_info    0x000a8bf1     0x479d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+ .debug_info    0x000ad38e     0x23e1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+ .debug_info    0x000af76f     0x27e7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+ .debug_info    0x000b1f56     0x4a2c ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+ .debug_info    0x000b6982      0x2c3 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+ .debug_info    0x000b6c45      0x3d2 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+ .debug_info    0x000b7017      0x14e ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+ .debug_info    0x000b7165     0x2532 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+ .debug_info    0x000b9697     0x348d ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+ .debug_info    0x000bcb24     0x1a29 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+ .debug_info    0x000be54d      0x553 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
 .debug_abbrev   0x00000000    0x14105
  .debug_abbrev  0x00000000      0x1af ./Application/User/Core/app_freertos.o
@@ -20024,7 +20006,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_loclists
                 0x00024e31      0x30c ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
-.debug_aranges  0x00000000     0x3a10
+.debug_aranges  0x00000000     0x39e0
  .debug_aranges
                 0x00000000       0x30 ./Application/User/Core/app_freertos.o
  .debug_aranges
@@ -20120,74 +20102,74 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_aranges
                 0x000013b0       0x48 ./Application/User/gui/GameScreen1Presenter.o
  .debug_aranges
-                0x000013f8      0x298 ./Application/User/gui/GameScreen1View.o
+                0x000013f8      0x268 ./Application/User/gui/GameScreen1View.o
  .debug_aranges
-                0x00001690       0x28 ./Application/User/gui/Model.o
+                0x00001660       0x28 ./Application/User/gui/Model.o
  .debug_aranges
-                0x000016b8       0xf0 ./Drivers/BSP/mx66uw1g45g.o
+                0x00001688       0xf0 ./Drivers/BSP/mx66uw1g45g.o
  .debug_aranges
-                0x000017a8       0x28 ./Drivers/CMSIS/system_stm32u5xx.o
+                0x00001778       0x28 ./Drivers/CMSIS/system_stm32u5xx.o
  .debug_aranges
-                0x000017d0      0x198 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+                0x000017a0      0x198 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
  .debug_aranges
-                0x00001968       0xc8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+                0x00001938       0xc8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
  .debug_aranges
-                0x00001a30       0x60 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+                0x00001a00       0x60 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
  .debug_aranges
-                0x00001a90       0x30 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+                0x00001a60       0x30 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
  .debug_aranges
-                0x00001ac0      0x128 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+                0x00001a90      0x128 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
  .debug_aranges
-                0x00001be8       0x90 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+                0x00001bb8       0x90 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
  .debug_aranges
-                0x00001c78      0x118 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+                0x00001c48      0x118 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
  .debug_aranges
-                0x00001d90      0x150 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+                0x00001d60      0x150 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .debug_aranges
-                0x00001ee0       0x78 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+                0x00001eb0       0x78 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
  .debug_aranges
-                0x00001f58       0x78 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+                0x00001f28       0x78 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
  .debug_aranges
-                0x00001fd0      0x290 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+                0x00001fa0      0x290 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
  .debug_aranges
-                0x00002260       0x58 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+                0x00002230       0x58 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
  .debug_aranges
-                0x000022b8       0xa8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+                0x00002288       0xa8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
  .debug_aranges
-                0x00002360      0x180 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x00002330      0x180 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .debug_aranges
-                0x000024e0      0x158 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+                0x000024b0      0x158 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
  .debug_aranges
-                0x00002638      0x230 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+                0x00002608      0x230 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .debug_aranges
-                0x00002868       0xa8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+                0x00002838       0xa8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
  .debug_aranges
-                0x00002910      0x160 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+                0x000028e0      0x160 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
  .debug_aranges
-                0x00002a70      0x3b8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+                0x00002a40      0x3b8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
  .debug_aranges
-                0x00002e28      0x250 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+                0x00002df8      0x250 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
  .debug_aranges
-                0x00003078      0x1a8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+                0x00003048      0x1a8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
  .debug_aranges
-                0x00003220      0x280 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+                0x000031f0      0x280 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
  .debug_aranges
-                0x000034a0       0x40 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+                0x00003470       0x40 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
  .debug_aranges
-                0x000034e0       0x70 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+                0x000034b0       0x70 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
  .debug_aranges
-                0x00003550       0x60 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+                0x00003520       0x60 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
  .debug_aranges
-                0x000035b0      0x138 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+                0x00003580      0x138 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
  .debug_aranges
-                0x000036e8      0x208 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+                0x000036b8      0x208 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
  .debug_aranges
-                0x000038f0       0xd0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+                0x000038c0       0xd0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
  .debug_aranges
-                0x000039c0       0x50 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+                0x00003990       0x50 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
 .debug_rnglists
-                0x00000000     0x3ffe
+                0x00000000     0x3fda
  .debug_rnglists
                 0x00000000       0x1f ./Application/User/Core/app_freertos.o
  .debug_rnglists
@@ -20257,71 +20239,71 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x00001bea       0x31 ./Application/User/gui/GameScreen1Presenter.o
  .debug_rnglists
-                0x00001c1b      0x221 ./Application/User/gui/GameScreen1View.o
+                0x00001c1b      0x1fd ./Application/User/gui/GameScreen1View.o
  .debug_rnglists
-                0x00001e3c       0x19 ./Application/User/gui/Model.o
+                0x00001e18       0x19 ./Application/User/gui/Model.o
  .debug_rnglists
-                0x00001e55       0xbf ./Drivers/BSP/mx66uw1g45g.o
+                0x00001e31       0xbf ./Drivers/BSP/mx66uw1g45g.o
  .debug_rnglists
-                0x00001f14       0x1a ./Drivers/CMSIS/system_stm32u5xx.o
+                0x00001ef0       0x1a ./Drivers/CMSIS/system_stm32u5xx.o
  .debug_rnglists
-                0x00001f2e      0x12e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+                0x00001f0a      0x12e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
  .debug_rnglists
-                0x0000205c       0xfa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+                0x00002038       0xfa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
  .debug_rnglists
-                0x00002156       0x43 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+                0x00002132       0x43 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
  .debug_rnglists
-                0x00002199       0x1f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+                0x00002175       0x1f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
  .debug_rnglists
-                0x000021b8       0xdb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+                0x00002194       0xdb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
  .debug_rnglists
-                0x00002293       0x7b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+                0x0000226f       0x7b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
  .debug_rnglists
-                0x0000230e       0xd1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+                0x000022ea       0xd1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
  .debug_rnglists
-                0x000023df      0x1d5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+                0x000023bb      0x1d5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .debug_rnglists
-                0x000025b4       0x6f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+                0x00002590       0x6f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
  .debug_rnglists
-                0x00002623       0x55 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+                0x000025ff       0x55 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
  .debug_rnglists
-                0x00002678      0x25b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+                0x00002654      0x25b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
  .debug_rnglists
-                0x000028d3       0x3d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+                0x000028af       0x3d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
  .debug_rnglists
-                0x00002910       0x79 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+                0x000028ec       0x79 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
  .debug_rnglists
-                0x00002989      0x1ba ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+                0x00002965      0x1ba ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
  .debug_rnglists
-                0x00002b43      0x100 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+                0x00002b1f      0x100 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
  .debug_rnglists
-                0x00002c43      0x1a8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+                0x00002c1f      0x1a8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .debug_rnglists
-                0x00002deb       0xf9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+                0x00002dc7       0xf9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
  .debug_rnglists
-                0x00002ee4      0x141 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+                0x00002ec0      0x141 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
  .debug_rnglists
-                0x00003025      0x359 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+                0x00003001      0x359 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
  .debug_rnglists
-                0x0000337e      0x1c4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+                0x0000335a      0x1c4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
  .debug_rnglists
-                0x00003542      0x191 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+                0x0000351e      0x191 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
  .debug_rnglists
-                0x000036d3      0x246 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+                0x000036af      0x246 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
  .debug_rnglists
-                0x00003919       0x2b ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+                0x000038f5       0x2b ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
  .debug_rnglists
-                0x00003944       0x4f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+                0x00003920       0x4f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
  .debug_rnglists
-                0x00003993       0x43 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+                0x0000396f       0x43 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
  .debug_rnglists
-                0x000039d6      0x1ca ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+                0x000039b2      0x1ca ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
  .debug_rnglists
-                0x00003ba0      0x32b ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+                0x00003b7c      0x32b ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
  .debug_rnglists
-                0x00003ecb       0xfa ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+                0x00003ea7       0xfa ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
  .debug_rnglists
-                0x00003fc5       0x39 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+                0x00003fa1       0x39 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
 .debug_macro    0x00000000    0x4fc89
  .debug_macro   0x00000000      0x383 ./Application/User/Core/app_freertos.o
@@ -20578,7 +20560,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x0004fa3f       0x97 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
  .debug_macro   0x0004fad6      0x1b3 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
-.debug_line     0x00000000    0x61ede
+.debug_line     0x00000000    0x61e51
  .debug_line    0x00000000      0xba4 ./Application/User/Core/app_freertos.o
  .debug_line    0x00000ba4     0x1246 ./Application/User/Core/main.o
  .debug_line    0x00001dea     0x115b ./Application/User/Core/stm32u5xx_hal_msp.o
@@ -20626,41 +20608,41 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x00025433       0xe7 ./Application/User/generated/image_tiny_outline_disabled_number2.o
  .debug_line    0x0002551a     0x110c ./Application/User/gui/FrontendApplication.o
  .debug_line    0x00026626     0x1192 ./Application/User/gui/GameScreen1Presenter.o
- .debug_line    0x000277b8     0x1f2b ./Application/User/gui/GameScreen1View.o
- .debug_line    0x000296e3       0xe7 ./Application/User/gui/Model.o
- .debug_line    0x000297ca     0x1e83 ./Drivers/BSP/mx66uw1g45g.o
- .debug_line    0x0002b64d      0xb3f ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_line    0x0002c18c     0x1083 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_line    0x0002d20f     0x10da ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_line    0x0002e2e9      0xd95 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
- .debug_line    0x0002f07e      0xade ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
- .debug_line    0x0002fb5c     0x12ed ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
- .debug_line    0x00030e49     0x1626 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_line    0x0003246f     0x1beb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
- .debug_line    0x0003405a     0x354f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
- .debug_line    0x000375a9     0x11e2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_line    0x0003878b      0xc18 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
- .debug_line    0x000393a3     0x5fe9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_line    0x0003f38c      0xf25 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_line    0x000402b1      0xd62 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
- .debug_line    0x00041013     0x330a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
- .debug_line    0x0004431d     0x241e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
- .debug_line    0x0004673b     0x1661 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_line    0x00047d9c     0x1d92 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_line    0x00049b2e     0x2c49 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_line    0x0004c777     0x56b6 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
- .debug_line    0x00051e2d     0x26fb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
- .debug_line    0x00054528     0x2a08 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
- .debug_line    0x00056f30     0x2cf3 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
- .debug_line    0x00059c23      0x877 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
- .debug_line    0x0005a49a      0x8d2 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
- .debug_line    0x0005ad6c      0x681 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
- .debug_line    0x0005b3ed     0x1f25 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
- .debug_line    0x0005d312     0x2f32 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
- .debug_line    0x00060244     0x114f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
- .debug_line    0x00061393      0xb4b ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+ .debug_line    0x000277b8     0x1e9e ./Application/User/gui/GameScreen1View.o
+ .debug_line    0x00029656       0xe7 ./Application/User/gui/Model.o
+ .debug_line    0x0002973d     0x1e83 ./Drivers/BSP/mx66uw1g45g.o
+ .debug_line    0x0002b5c0      0xb3f ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_line    0x0002c0ff     0x1083 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_line    0x0002d182     0x10da ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_line    0x0002e25c      0xd95 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+ .debug_line    0x0002eff1      0xade ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+ .debug_line    0x0002facf     0x12ed ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+ .debug_line    0x00030dbc     0x1626 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_line    0x000323e2     0x1beb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+ .debug_line    0x00033fcd     0x354f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_line    0x0003751c     0x11e2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_line    0x000386fe      0xc18 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+ .debug_line    0x00039316     0x5fe9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_line    0x0003f2ff      0xf25 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_line    0x00040224      0xd62 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+ .debug_line    0x00040f86     0x330a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+ .debug_line    0x00044290     0x241e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+ .debug_line    0x000466ae     0x1661 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_line    0x00047d0f     0x1d92 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_line    0x00049aa1     0x2c49 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_line    0x0004c6ea     0x56b6 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+ .debug_line    0x00051da0     0x26fb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+ .debug_line    0x0005449b     0x2a08 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+ .debug_line    0x00056ea3     0x2cf3 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+ .debug_line    0x00059b96      0x877 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+ .debug_line    0x0005a40d      0x8d2 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+ .debug_line    0x0005acdf      0x681 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+ .debug_line    0x0005b360     0x1f25 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+ .debug_line    0x0005d285     0x2f32 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+ .debug_line    0x000601b7     0x114f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+ .debug_line    0x00061306      0xb4b ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
 
-.debug_str      0x00000000   0x1c2e51
+.debug_str      0x00000000   0x1c2ddf
  .debug_str     0x00000000   0x1898b8 ./Application/User/Core/app_freertos.o
                              0x18a37f (size before relaxing)
  .debug_str     0x001898b8     0x38be ./Application/User/Core/main.o
@@ -20713,113 +20695,113 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                                0x4d76 (size before relaxing)
  .debug_str     0x001aafa2       0x89 ./Application/User/generated/Font_verdana_40_4bpp_0.o
                                0x4d76 (size before relaxing)
- .debug_str     0x001ab02b     0x3714 ./Application/User/generated/FrontendApplicationBase.o
-                              0x18490 (size before relaxing)
- .debug_str     0x001ae73f      0x9f6 ./Application/User/generated/GameScreen1ViewBase.o
-                              0x10a32 (size before relaxing)
- .debug_str     0x001af135      0x7b9 ./Application/User/generated/GeneratedFont.o
+ .debug_str     0x001ab02b     0x36a2 ./Application/User/generated/FrontendApplicationBase.o
+                              0x1841e (size before relaxing)
+ .debug_str     0x001ae6cd      0x9f6 ./Application/User/generated/GameScreen1ViewBase.o
+                              0x10a26 (size before relaxing)
+ .debug_str     0x001af0c3      0x7b9 ./Application/User/generated/GeneratedFont.o
                                0xcbfe (size before relaxing)
- .debug_str     0x001af8ee       0x87 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+ .debug_str     0x001af87c       0x87 ./Application/User/generated/Kerning_verdana_10_4bpp.o
                                0x5477 (size before relaxing)
- .debug_str     0x001af975       0x87 ./Application/User/generated/Kerning_verdana_20_4bpp.o
+ .debug_str     0x001af903       0x87 ./Application/User/generated/Kerning_verdana_20_4bpp.o
                                0x5477 (size before relaxing)
- .debug_str     0x001af9fc       0x87 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+ .debug_str     0x001af98a       0x87 ./Application/User/generated/Kerning_verdana_40_4bpp.o
                                0x5477 (size before relaxing)
- .debug_str     0x001afa83       0x6c ./Application/User/generated/LanguageGb.o
+ .debug_str     0x001afa11       0x6c ./Application/User/generated/LanguageGb.o
                                0x4eb2 (size before relaxing)
- .debug_str     0x001afaef      0x147 ./Application/User/generated/Table_verdana_10_4bpp.o
+ .debug_str     0x001afa7d      0x147 ./Application/User/generated/Table_verdana_10_4bpp.o
                                0x642d (size before relaxing)
- .debug_str     0x001afc36       0xd2 ./Application/User/generated/Table_verdana_20_4bpp.o
+ .debug_str     0x001afbc4       0xd2 ./Application/User/generated/Table_verdana_20_4bpp.o
                                0x642d (size before relaxing)
- .debug_str     0x001afd08       0xd2 ./Application/User/generated/Table_verdana_40_4bpp.o
+ .debug_str     0x001afc96       0xd2 ./Application/User/generated/Table_verdana_40_4bpp.o
                                0x642d (size before relaxing)
- .debug_str     0x001afdda      0x23c ./Application/User/generated/Texts.o
+ .debug_str     0x001afd68      0x23c ./Application/User/generated/Texts.o
                                0xdee6 (size before relaxing)
- .debug_str     0x001b0016      0x128 ./Application/User/generated/TypedTextDatabase.o
+ .debug_str     0x001affa4      0x128 ./Application/User/generated/TypedTextDatabase.o
                                0x675d (size before relaxing)
- .debug_str     0x001b013e       0xa9 ./Application/User/generated/VectorFontRendererBuffers.o
+ .debug_str     0x001b00cc       0xa9 ./Application/User/generated/VectorFontRendererBuffers.o
                                0x6ce8 (size before relaxing)
- .debug_str     0x001b01e7       0x69 ./Application/User/generated/image_BackScreen.o
+ .debug_str     0x001b0175       0x69 ./Application/User/generated/image_BackScreen.o
                                0x3815 (size before relaxing)
- .debug_str     0x001b0250       0xae ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.o
+ .debug_str     0x001b01de       0xae ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.o
                                0x3893 (size before relaxing)
- .debug_str     0x001b02fe       0xb3 ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.o
+ .debug_str     0x001b028c       0xb3 ./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.o
                                0x389d (size before relaxing)
- .debug_str     0x001b03b1       0xa3 ./Application/User/generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.o
+ .debug_str     0x001b033f       0xa3 ./Application/User/generated/image_icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.o
                                0x387d (size before relaxing)
- .debug_str     0x001b0454       0x7c ./Application/User/generated/image_tiny_outline_disabled_number1.o
+ .debug_str     0x001b03e2       0x7c ./Application/User/generated/image_tiny_outline_disabled_number1.o
                                0x383b (size before relaxing)
- .debug_str     0x001b04d0       0x7c ./Application/User/generated/image_tiny_outline_disabled_number2.o
+ .debug_str     0x001b045e       0x7c ./Application/User/generated/image_tiny_outline_disabled_number2.o
                                0x383b (size before relaxing)
- .debug_str     0x001b054c       0x98 ./Application/User/gui/FrontendApplication.o
+ .debug_str     0x001b04da       0x98 ./Application/User/gui/FrontendApplication.o
                                0xdf3a (size before relaxing)
- .debug_str     0x001b05e4       0xd4 ./Application/User/gui/GameScreen1Presenter.o
-                              0x10b8f (size before relaxing)
- .debug_str     0x001b06b8       0xaa ./Application/User/gui/GameScreen1View.o
-                              0x10caf (size before relaxing)
- .debug_str     0x001b0762       0x65 ./Application/User/gui/Model.o
+ .debug_str     0x001b0572       0xd4 ./Application/User/gui/GameScreen1Presenter.o
+                              0x10b1d (size before relaxing)
+ .debug_str     0x001b0646       0xaa ./Application/User/gui/GameScreen1View.o
+                              0x10c3d (size before relaxing)
+ .debug_str     0x001b06f0       0x65 ./Application/User/gui/Model.o
                                0x33da (size before relaxing)
- .debug_str     0x001b07c7      0x611 ./Drivers/BSP/mx66uw1g45g.o
+ .debug_str     0x001b0755      0x611 ./Drivers/BSP/mx66uw1g45g.o
                              0x186aa2 (size before relaxing)
- .debug_str     0x001b0dd8       0xff ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_str     0x001b0d66       0xff ./Drivers/CMSIS/system_stm32u5xx.o
                              0x184af7 (size before relaxing)
- .debug_str     0x001b0ed7      0x97a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_str     0x001b0e65      0x97a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
                              0x185cde (size before relaxing)
- .debug_str     0x001b1851      0x3be ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_str     0x001b17df      0x3be ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
                              0x185827 (size before relaxing)
- .debug_str     0x001b1c0f       0xe4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+ .debug_str     0x001b1b9d       0xe4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
                              0x1849f8 (size before relaxing)
- .debug_str     0x001b1cf3       0x9c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+ .debug_str     0x001b1c81       0x9c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
                              0x18499e (size before relaxing)
- .debug_str     0x001b1d8f      0x7d9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+ .debug_str     0x001b1d1d      0x7d9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
                              0x185154 (size before relaxing)
- .debug_str     0x001b2568      0x316 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_str     0x001b24f6      0x316 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
                              0x184e7b (size before relaxing)
- .debug_str     0x001b287e      0x3b5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+ .debug_str     0x001b280c      0x3b5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
                              0x185016 (size before relaxing)
- .debug_str     0x001b2c33      0x8fa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_str     0x001b2bc1      0x8fa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
                              0x185519 (size before relaxing)
- .debug_str     0x001b352d      0x2a9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_str     0x001b34bb      0x2a9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
                              0x184b1c (size before relaxing)
- .debug_str     0x001b37d6      0x18f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+ .debug_str     0x001b3764      0x18f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
                              0x184a47 (size before relaxing)
- .debug_str     0x001b3965      0xeb0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_str     0x001b38f3      0xeb0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
                              0x185d45 (size before relaxing)
- .debug_str     0x001b4815      0x160 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_str     0x001b47a3      0x160 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
                              0x184f2d (size before relaxing)
- .debug_str     0x001b4975      0x67c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+ .debug_str     0x001b4903      0x67c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
                              0x184e19 (size before relaxing)
- .debug_str     0x001b4ff1      0xca0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+ .debug_str     0x001b4f7f      0xca0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
                              0x185c27 (size before relaxing)
- .debug_str     0x001b5c91      0x426 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+ .debug_str     0x001b5c1f      0x426 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
                              0x184f42 (size before relaxing)
- .debug_str     0x001b60b7      0x938 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_str     0x001b6045      0x938 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
                              0x18533b (size before relaxing)
- .debug_str     0x001b69ef     0x12e2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_str     0x001b697d     0x12e2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
                              0x186290 (size before relaxing)
- .debug_str     0x001b7cd1     0x2b2f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_str     0x001b7c5f     0x2b2f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
                              0x187a91 (size before relaxing)
- .debug_str     0x001ba800      0xfa2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+ .debug_str     0x001ba78e      0xfa2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
                              0x185f3a (size before relaxing)
- .debug_str     0x001bb7a2      0x9e5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+ .debug_str     0x001bb730      0x9e5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
                              0x185b91 (size before relaxing)
- .debug_str     0x001bc187      0x8c7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+ .debug_str     0x001bc115      0x8c7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
                              0x18597f (size before relaxing)
- .debug_str     0x001bca4e     0x2f04 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+ .debug_str     0x001bc9dc     0x2f04 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
                              0x18dc7d (size before relaxing)
- .debug_str     0x001bf952      0x1a9 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+ .debug_str     0x001bf8e0      0x1a9 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
                                0xb491 (size before relaxing)
- .debug_str     0x001bfafb      0xf81 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+ .debug_str     0x001bfa89      0xf81 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
                                0xa3af (size before relaxing)
- .debug_str     0x001c0a7c       0xdd ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+ .debug_str     0x001c0a0a       0xdd ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
                                0x776f (size before relaxing)
- .debug_str     0x001c0b59      0x872 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+ .debug_str     0x001c0ae7      0x872 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
                                0xdb49 (size before relaxing)
- .debug_str     0x001c13cb     0x110f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+ .debug_str     0x001c1359     0x110f ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
                                0xe722 (size before relaxing)
- .debug_str     0x001c24da      0x620 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+ .debug_str     0x001c2468      0x620 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
                                0xe0d1 (size before relaxing)
- .debug_str     0x001c2afa      0x357 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+ .debug_str     0x001c2a88      0x357 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
                                0xc94e (size before relaxing)
 
 .comment        0x00000000       0xc2
@@ -20950,7 +20932,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x000000c2       0x80 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(LCDGPU2D.o)
  .comment       0x000000c2       0x80 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc\libtouchgfxnema-float-abi-hard.a(GPU2DVectorRenderer.o)
 
-.debug_frame    0x00000000     0xa4ec
+.debug_frame    0x00000000     0xa48c
  .debug_frame   0x00000000       0x50 ./Application/User/Core/app_freertos.o
  .debug_frame   0x00000050       0x6c ./Application/User/Core/main.o
  .debug_frame   0x000000bc      0x204 ./Application/User/Core/stm32u5xx_hal_msp.o
@@ -20984,103 +20966,103 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_frame   0x000028a4       0x28 ./Application/User/generated/VectorFontRendererBuffers.o
  .debug_frame   0x000028cc       0xb4 ./Application/User/gui/FrontendApplication.o
  .debug_frame   0x00002980       0x78 ./Application/User/gui/GameScreen1Presenter.o
- .debug_frame   0x000029f8      0x550 ./Application/User/gui/GameScreen1View.o
- .debug_frame   0x00002f48       0x30 ./Application/User/gui/Model.o
- .debug_frame   0x00002f78      0x404 ./Drivers/BSP/mx66uw1g45g.o
- .debug_frame   0x0000337c       0x38 ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_frame   0x000033b4      0x350 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_frame   0x00003704      0x198 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_frame   0x0000389c       0xf0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
- .debug_frame   0x0000398c       0x48 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
- .debug_frame   0x000039d4      0x2dc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
- .debug_frame   0x00003cb0      0x16c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_frame   0x00003e1c      0x328 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
- .debug_frame   0x00004144      0x500 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
- .debug_frame   0x00004644      0x148 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_frame   0x0000478c       0xf0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
- .debug_frame   0x0000487c      0x918 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_frame   0x00005194       0xbc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_frame   0x00005250      0x164 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
- .debug_frame   0x000053b4      0x498 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
- .debug_frame   0x0000584c      0x39c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
- .debug_frame   0x00005be8      0x454 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_frame   0x0000603c      0x1e4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_frame   0x00006220      0x3b8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_frame   0x000065d8      0xa6c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
- .debug_frame   0x00007044      0x5e0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
- .debug_frame   0x00007624      0x4f4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
- .debug_frame   0x00007b18      0x8c8 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
- .debug_frame   0x000083e0       0x6c ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
- .debug_frame   0x0000844c      0x114 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
- .debug_frame   0x00008560       0xa0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
- .debug_frame   0x00008600      0x414 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
- .debug_frame   0x00008a14      0x718 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
- .debug_frame   0x0000912c      0x2b0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
- .debug_frame   0x000093dc       0xc4 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
- .debug_frame   0x000094a0       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(atexit_arm.o)
- .debug_frame   0x000094c0       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(del_ops.o)
- .debug_frame   0x000094e0       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(guard.o)
- .debug_frame   0x00009520       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(pure.o)
- .debug_frame   0x00009560       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(del_op.o)
- .debug_frame   0x00009580       0xb0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(eh_terminate.o)
- .debug_frame   0x00009630       0x48 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_acos.o)
- .debug_frame   0x00009678       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_atan2.o)
- .debug_frame   0x00009698       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_fmod.o)
- .debug_frame   0x000096d0       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_sqrt.o)
- .debug_frame   0x00009708       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
- .debug_frame   0x00009734       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_cos.o)
- .debug_frame   0x0000976c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_fabs.o)
- .debug_frame   0x0000978c       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_sin.o)
- .debug_frame   0x000097c4       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_tan.o)
- .debug_frame   0x000097fc       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_nan.o)
- .debug_frame   0x0000981c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_sqrt.o)
- .debug_frame   0x0000983c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_cos.o)
- .debug_frame   0x0000985c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_sin.o)
- .debug_frame   0x0000987c       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_tan.o)
- .debug_frame   0x000098a4       0x6c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_acos.o)
- .debug_frame   0x00009910       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
- .debug_frame   0x00009940       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_fmod.o)
- .debug_frame   0x00009970       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
- .debug_frame   0x000099a8       0x5c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
- .debug_frame   0x00009a04       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_scalbn.o)
- .debug_frame   0x00009a24       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_floor.o)
- .debug_frame   0x00009a44       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-abort.o)
- .debug_frame   0x00009a6c       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-assert.o)
- .debug_frame   0x00009aac       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-atexit.o)
- .debug_frame   0x00009acc       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-malloc.o)
- .debug_frame   0x00009afc       0x50 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-mallocr.o)
- .debug_frame   0x00009b4c       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-mlock.o)
- .debug_frame   0x00009b7c       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-cxa_atexit.o)
- .debug_frame   0x00009ba4      0x144 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x00009ce8       0x64 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fprintf.o)
- .debug_frame   0x00009d4c       0x34 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fwalk.o)
- .debug_frame   0x00009d80       0x88 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-stdio.o)
- .debug_frame   0x00009e08       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x00009e28       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
- .debug_frame   0x00009e50       0xcc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-signal.o)
- .debug_frame   0x00009f1c       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-closer.o)
- .debug_frame   0x00009f48       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-reent.o)
- .debug_frame   0x00009f80       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-lseekr.o)
- .debug_frame   0x00009fac       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-readr.o)
- .debug_frame   0x00009fd8       0x3c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-signalr.o)
- .debug_frame   0x0000a014       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x0000a040       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-writer.o)
- .debug_frame   0x0000a06c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-errno.o)
- .debug_frame   0x0000a08c       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000a0b8       0xb0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-lock.o)
- .debug_frame   0x0000a168       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x0000a190       0x34 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-__atexit.o)
- .debug_frame   0x0000a1c4       0x48 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-__call_atexit.o)
- .debug_frame   0x0000a20c       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-freer.o)
- .debug_frame   0x0000a244       0xa8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x0000a2ec       0x60 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x0000a34c       0x5c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fflush.o)
- .debug_frame   0x0000a3a8       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-wbuf.o)
- .debug_frame   0x0000a3e8       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-wsetup.o)
- .debug_frame   0x0000a414       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memchr-stub.o)
- .debug_frame   0x0000a43c       0x58 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-makebuf.o)
- .debug_frame   0x0000a494       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fstatr.o)
- .debug_frame   0x0000a4c0       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x000029f8      0x4f0 ./Application/User/gui/GameScreen1View.o
+ .debug_frame   0x00002ee8       0x30 ./Application/User/gui/Model.o
+ .debug_frame   0x00002f18      0x404 ./Drivers/BSP/mx66uw1g45g.o
+ .debug_frame   0x0000331c       0x38 ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_frame   0x00003354      0x350 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_frame   0x000036a4      0x198 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_frame   0x0000383c       0xf0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+ .debug_frame   0x0000392c       0x48 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+ .debug_frame   0x00003974      0x2dc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+ .debug_frame   0x00003c50      0x16c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_frame   0x00003dbc      0x328 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+ .debug_frame   0x000040e4      0x500 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_frame   0x000045e4      0x148 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_frame   0x0000472c       0xf0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+ .debug_frame   0x0000481c      0x918 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_frame   0x00005134       0xbc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_frame   0x000051f0      0x164 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+ .debug_frame   0x00005354      0x498 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_jpeg.o
+ .debug_frame   0x000057ec      0x39c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+ .debug_frame   0x00005b88      0x454 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_frame   0x00005fdc      0x1e4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_frame   0x000061c0      0x3b8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_frame   0x00006578      0xa6c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+ .debug_frame   0x00006fe4      0x5e0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+ .debug_frame   0x000075c4      0x4f4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+ .debug_frame   0x00007ab8      0x8c8 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/cmsis_os2.o
+ .debug_frame   0x00008380       0x6c ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/list.o
+ .debug_frame   0x000083ec      0x114 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/port.o
+ .debug_frame   0x00008500       0xa0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/portasm.o
+ .debug_frame   0x000085a0      0x414 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/queue.o
+ .debug_frame   0x000089b4      0x718 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/tasks.o
+ .debug_frame   0x000090cc      0x2b0 ./Middlewares/RTOS2/CMSIS/RTOS2/Core/TZ_Non_Supported/timers.o
+ .debug_frame   0x0000937c       0xc4 ./Middlewares/RTOS2/CMSIS/RTOS2/Heap/Heap_4/heap_4.o
+ .debug_frame   0x00009440       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x00009460       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x00009480       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(guard.o)
+ .debug_frame   0x000094c0       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(pure.o)
+ .debug_frame   0x00009500       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(del_op.o)
+ .debug_frame   0x00009520       0xb0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(eh_terminate.o)
+ .debug_frame   0x000095d0       0x48 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_acos.o)
+ .debug_frame   0x00009618       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_atan2.o)
+ .debug_frame   0x00009638       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_fmod.o)
+ .debug_frame   0x00009670       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .debug_frame   0x000096a8       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_atan.o)
+ .debug_frame   0x000096d4       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_cos.o)
+ .debug_frame   0x0000970c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_fabs.o)
+ .debug_frame   0x0000972c       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_sin.o)
+ .debug_frame   0x00009764       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_tan.o)
+ .debug_frame   0x0000979c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_nan.o)
+ .debug_frame   0x000097bc       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .debug_frame   0x000097dc       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_cos.o)
+ .debug_frame   0x000097fc       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_sin.o)
+ .debug_frame   0x0000981c       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_tan.o)
+ .debug_frame   0x00009844       0x6c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_acos.o)
+ .debug_frame   0x000098b0       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_atan2.o)
+ .debug_frame   0x000098e0       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_fmod.o)
+ .debug_frame   0x00009910       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-ef_rem_pio2.o)
+ .debug_frame   0x00009948       0x5c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-kf_rem_pio2.o)
+ .debug_frame   0x000099a4       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_scalbn.o)
+ .debug_frame   0x000099c4       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libm.a(libm_a-sf_floor.o)
+ .debug_frame   0x000099e4       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-abort.o)
+ .debug_frame   0x00009a0c       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-assert.o)
+ .debug_frame   0x00009a4c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-atexit.o)
+ .debug_frame   0x00009a6c       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x00009a9c       0x50 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00009aec       0x30 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00009b1c       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-cxa_atexit.o)
+ .debug_frame   0x00009b44      0x144 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00009c88       0x64 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fprintf.o)
+ .debug_frame   0x00009cec       0x34 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00009d20       0x88 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00009da8       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00009dc8       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strncmp.o)
+ .debug_frame   0x00009df0       0xcc C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-signal.o)
+ .debug_frame   0x00009ebc       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00009ee8       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00009f20       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00009f4c       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00009f78       0x3c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-signalr.o)
+ .debug_frame   0x00009fb4       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00009fe0       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x0000a00c       0x20 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000a02c       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x0000a058       0xb0 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x0000a108       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x0000a130       0x34 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-__atexit.o)
+ .debug_frame   0x0000a164       0x48 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-__call_atexit.o)
+ .debug_frame   0x0000a1ac       0x38 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x0000a1e4       0xa8 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x0000a28c       0x60 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000a2ec       0x5c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x0000a348       0x40 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x0000a388       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x0000a3b4       0x28 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memchr-stub.o)
+ .debug_frame   0x0000a3dc       0x58 C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x0000a434       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x0000a460       0x2c C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-isattyr.o)
 
 .debug_line_str
                 0x00000000       0x7e
