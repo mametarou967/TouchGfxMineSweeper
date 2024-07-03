@@ -9,13 +9,12 @@
 
 Model::Model() : modelListener(0)
 {
-
+	// 値の初期化
     for (int row = 1; row <= row_size; ++row) {
         for (int column = 1; column <= column_size; ++column) {
         	blockInit(row,column);  // 全ての要素を0に初期化
         }
     }
-
 
     std::mt19937 generator(static_cast<unsigned int>(std::time(nullptr)));
     std::uniform_int_distribution<int> distribution(0, row_size * column_size - 1);
@@ -29,6 +28,31 @@ Model::Model() : modelListener(0)
         if (!matrix[row_index][column_index].hasBomb) {
         	matrix[row_index][column_index].hasBomb = true;
             bombsPlaced++;
+        }
+    }
+
+    int bobobo = 0;
+    // 数字のセット
+    for (int row = 1; row <= row_size; ++row) {
+        for (int column = 1; column <= column_size; ++column) {
+        	int aroundBombNumber = 0;
+        	// if(row == 2) aroundBombNumber = 1;
+        	if(row == 9 && column == 1)
+        	{
+        		bobobo = 1;
+        	}
+        	// まわりのボムの数を数える
+        	if(hasBomb( row + 1 , column + 1 )) aroundBombNumber++;
+        	if(hasBomb( row + 1 , column     )) aroundBombNumber++;
+        	if(hasBomb( row + 1 , column - 1 )) aroundBombNumber++;
+        	if(hasBomb( row     , column + 1 )) aroundBombNumber++;
+        	if(hasBomb( row     , column - 1 )) aroundBombNumber++;
+        	if(hasBomb( row - 1 , column + 1 )) aroundBombNumber++;
+        	if(hasBomb( row - 1 , column     )) aroundBombNumber++;
+        	if(hasBomb( row - 1 , column - 1 )) aroundBombNumber++;
+
+        	// ボムをセット
+        	setNumber( row ,column , aroundBombNumber );
         }
     }
 }
@@ -102,6 +126,30 @@ Model::Block Model::getPreBlock(int row,int column)
 
 	return preMatrix[row_index][column_index];
 }
+
+
+bool Model::hasBomb(int row,int column)
+{
+	int row_index = row - 1;
+	int column_index = column - 1;
+
+	if(row_index < 0) return false;
+	if(column_index < 0) return false;
+	if(row_index >= row_size) return false;
+	if(column_index >= column_size ) return false;
+
+	if(matrix[row_index][column_index].hasBomb) return true;
+
+	return false;
+}
+void Model::setNumber(int row,int column,int number)
+{
+	int row_index = row - 1;
+	int column_index = column - 1;
+
+	matrix[row_index][column_index].number = number;
+}
+
 
 bool Model::openBlock(int row,int column)
 {
