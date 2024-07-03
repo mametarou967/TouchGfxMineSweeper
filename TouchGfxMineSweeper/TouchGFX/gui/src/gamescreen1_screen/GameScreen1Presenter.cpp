@@ -21,6 +21,14 @@ void GameScreen1Presenter::deactivate()
 
 void GameScreen1Presenter::blockClicked(int row, int column)
 {
+	if(!model.firstOpened)
+	{
+		// 初めて開いた場合はボムと数字をセット
+		model.setBombsWithout(row,column);
+		model.setNumbers();
+		model.firstOpened = true;
+	}
+
 	// 現在の状態を保存
 	model.saveCurrentBlockMatrix();
 

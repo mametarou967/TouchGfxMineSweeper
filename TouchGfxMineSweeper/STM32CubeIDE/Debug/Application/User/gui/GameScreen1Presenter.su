@@ -4,5 +4,5 @@ C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescree
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:virtual GameScreen1Presenter::~GameScreen1Presenter()	8	static
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:virtual void* GameScreen1Presenter::_ZThn4_N20GameScreen1PresenterD1Ev()	0	static
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:5:1:GameScreen1Presenter::GameScreen1Presenter(GameScreen1View&)	8	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:45:34:GameScreen1Presenter::BlockState GameScreen1Presenter::GetBlockState(Model::Block)	8	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:53:34:GameScreen1Presenter::BlockState GameScreen1Presenter::GetBlockState(Model::Block)	8	static
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:22:6:void GameScreen1Presenter::blockClicked(int, int)	40	static
