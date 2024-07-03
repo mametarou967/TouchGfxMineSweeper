@@ -1,12 +1,34 @@
 #include <gui/model/Model.hpp>
 #include <gui/model/ModelListener.hpp>
 #include <cstring>
+#include <iostream>
+#include <vector>
+#include <random>
+#include <ctime>
+
 
 Model::Model() : modelListener(0)
 {
+
     for (int row = 1; row <= row_size; ++row) {
         for (int column = 1; column <= column_size; ++column) {
         	blockInit(row,column);  // 全ての要素を0に初期化
+        }
+    }
+
+
+    std::mt19937 generator(static_cast<unsigned int>(std::time(nullptr)));
+    std::uniform_int_distribution<int> distribution(0, row_size * column_size - 1);
+
+    int bombsPlaced = 0;
+    while (bombsPlaced < bomb_number) {
+        int randomIndex = distribution(generator);
+        int row_index = randomIndex / column_size;
+        int column_index = randomIndex % column_size;
+
+        if (!matrix[row_index][column_index].hasBomb) {
+        	matrix[row_index][column_index].hasBomb = true;
+            bombsPlaced++;
         }
     }
 }

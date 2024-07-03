@@ -30,6 +30,7 @@ public:
 	int getColumnMax(void);
 
 protected:
+	static const int bomb_number = 25;
     static const int row_size = 7;
     static const int column_size = 9;
     Block matrix[row_size][column_size];
