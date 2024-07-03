@@ -1,2 +1,10 @@
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	0	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::tick()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:19:5:int Model::getRowMax()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:24:5:int Model::getColumnMax()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:29:6:void Model::blockInit(int, int)	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:5:1:Model::Model()	16	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:47:6:void Model::saveCurrentBlockMatrix()	0	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:52:6:bool Model::diffPresentBlock(int, int)	12	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:68:14:Model::Block Model::getBlock(int, int)	8	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:76:14:Model::Block Model::getPreBlock(int, int)	8	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/model/Model.cpp:84:6:bool Model::openBlock(int, int)	0	static

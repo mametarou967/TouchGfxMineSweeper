@@ -11,7 +11,7 @@ GameScreen1View::GameScreen1View()
 		for(column=1;column<=9;column++)
 		{
 			//touchgfx::ButtonWithIcon& block = getBlockWithIcon(row, column);
-		    updateBlockImage(row,column ,BlockState::Close);
+		    updateBlockImage(row,column ,GameScreen1Presenter::BlockState::Close);
 		}
 	}
     GameScreen1View::block1_1_Cliecked_number = 0;
@@ -91,85 +91,85 @@ void GameScreen1View::Block7_7_Clicked(){ blockClicked(7,7); }
 void GameScreen1View::Block7_8_Clicked(){ blockClicked(7,8); }
 void GameScreen1View::Block7_9_Clicked(){ blockClicked(7,9); }
 
-void GameScreen1View::updateBlockImage(int row,int column, GameScreen1View::BlockState blockState)
+void GameScreen1View::updateBlockImage(int row,int column, GameScreen1Presenter::BlockState blockState)
 {
 	touchgfx::ButtonWithIcon& blockImage = getBlockWithIcon(row, column);
 
     switch (blockState)
     {
-    case BlockState::Close:
+    case GameScreen1Presenter::BlockState::Close:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
                               touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::CloseWithFlag:
+    case GameScreen1Presenter::BlockState::CloseWithFlag:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
                               touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID),
                               touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID),
                               touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
         break;
-    case BlockState::OpenNumber0:
+    case GameScreen1Presenter::BlockState::OpenNumber0:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
                               touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_OUTLINE_DISABLED_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber1:
+    case GameScreen1Presenter::BlockState::OpenNumber1:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER1_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER1_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber2:
+    case GameScreen1Presenter::BlockState::OpenNumber2:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER2_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER2_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber3:
+    case GameScreen1Presenter::BlockState::OpenNumber3:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER3_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER3_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber4:
+    case GameScreen1Presenter::BlockState::OpenNumber4:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER4_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER4_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber5:
+    case GameScreen1Presenter::BlockState::OpenNumber5:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER5_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER5_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber6:
+    case GameScreen1Presenter::BlockState::OpenNumber6:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER6_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER6_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber7:
+    case GameScreen1Presenter::BlockState::OpenNumber7:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER7_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER7_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber8:
+    case GameScreen1Presenter::BlockState::OpenNumber8:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER8_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER8_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenNumber9:
+    case GameScreen1Presenter::BlockState::OpenNumber9:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER9_ID),
                               touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER9_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),
                               touchgfx::Bitmap(BITMAP_INVALID));
         break;
-    case BlockState::OpenBomb:
+    case GameScreen1Presenter::BlockState::OpenBomb:
         blockImage.setBitmaps(touchgfx::Bitmap(BITMAP_TINY_BOMB_ID),
                               touchgfx::Bitmap(BITMAP_TINY_BOMB_ID),
                               touchgfx::Bitmap(BITMAP_INVALID),

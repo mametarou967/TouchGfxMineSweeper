@@ -76,25 +76,7 @@ public:
     virtual void Block7_8_Clicked();
     virtual void Block7_9_Clicked();
 
-    enum class BlockState
-	{
-    	Close = 0,
-		CloseWithFlag,
-		OpenNumber0,
-		OpenNumber1,
-		OpenNumber2,
-		OpenNumber3,
-		OpenNumber4,
-		OpenNumber5,
-		OpenNumber6,
-		OpenNumber7,
-		OpenNumber8,
-		OpenNumber9,
-		OpenBomb,
-		BlockStateMax
-	};
-
-    void updateBlockImage(int row,int column,BlockState);
+    void updateBlockImage(int row,int column,GameScreen1Presenter::BlockState);
 protected:
     int block1_1_Cliecked_number;
     touchgfx::ButtonWithIcon& getBlockWithIcon(int row , int column);

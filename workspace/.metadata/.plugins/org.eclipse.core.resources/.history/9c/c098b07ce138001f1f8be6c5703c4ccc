@@ -1,0 +1,16 @@
+#include <gui/model/Model.hpp>
+#include <gui/model/ModelListener.hpp>
+
+Model::Model() : modelListener(0)
+{
+    for (int row = 0; i < size; ++i) {
+        for (int column = 0; j < size; ++j) {
+            matrix[i][j] = 0;  // 全ての要素を0に初期化
+        }
+    }
+}
+
+void Model::tick()
+{
+
+}

@@ -3,6 +3,7 @@
 
 #include <gui/model/ModelListener.hpp>
 #include <mvp/Presenter.hpp>
+#include <gui/model/Model.hpp>
 
 using namespace touchgfx;
 
@@ -29,10 +30,30 @@ public:
 
     void blockClicked(int row, int column);
 
+    enum class BlockState
+	{
+    	Close = 0,
+		CloseWithFlag,
+		OpenNumber0,
+		OpenNumber1,
+		OpenNumber2,
+		OpenNumber3,
+		OpenNumber4,
+		OpenNumber5,
+		OpenNumber6,
+		OpenNumber7,
+		OpenNumber8,
+		OpenNumber9,
+		OpenBomb,
+		BlockStateMax
+	};
+
 private:
     GameScreen1Presenter();
+    BlockState GetBlockState(Model::Block);
 
     GameScreen1View& view;
+    Model model;
 };
 
 #endif // GAMESCREEN1PRESENTER_HPP
