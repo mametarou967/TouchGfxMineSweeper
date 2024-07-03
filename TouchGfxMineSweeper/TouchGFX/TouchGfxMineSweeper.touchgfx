@@ -1804,6 +1804,78 @@
             "Width": 60,
             "Height": 60,
             "RelativeFilename": "tiny_outline_disabled_number2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number3",
+            "X": 234,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number4",
+            "X": 309,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number5",
+            "X": 381,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number5.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number6",
+            "X": 452,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number6.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number7",
+            "X": 520,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number7.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number8",
+            "X": 591,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number8.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_number9",
+            "X": 661,
+            "Y": 16,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_outline_disabled_number9.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_bomb",
+            "X": 17,
+            "Y": 89,
+            "Width": 60,
+            "Height": 60,
+            "RelativeFilename": "tiny_bomb.png"
           }
         ],
         "Interactions": []

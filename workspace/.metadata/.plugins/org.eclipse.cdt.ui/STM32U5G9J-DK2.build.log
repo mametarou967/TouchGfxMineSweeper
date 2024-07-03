@@ -1,10 +1,10 @@
-16:43:38 **** Incremental Build of configuration Debug for project STM32U5G9J-DK2 ****
+10:35:14 **** Incremental Build of configuration Debug for project STM32U5G9J-DK2 ****
 make -j4 all 
 arm-none-eabi-size  STM32U5G9J-DK2.elf 
    text	   data	    bss	    dec	    hex	filename
-1074440	    720	2085570	3160730	 303a9a	STM32U5G9J-DK2.elf
+1189832	    720	2085570	3276122	 31fd5a	STM32U5G9J-DK2.elf
 Finished building: default.size.stdout
  
 
-16:43:40 Build Finished. 0 errors, 0 warnings. (took 1s.469ms)
+10:35:16 Build Finished. 0 errors, 0 warnings. (took 1s.827ms)
 

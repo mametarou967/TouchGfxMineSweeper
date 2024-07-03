@@ -31,6 +31,14 @@ protected:
     touchgfx::ButtonWithIcon Sample1;
     touchgfx::Image image1;
     touchgfx::Image image1_1;
+    touchgfx::Image image_number3;
+    touchgfx::Image image_number4;
+    touchgfx::Image image_number5;
+    touchgfx::Image image_number6;
+    touchgfx::Image image_number7;
+    touchgfx::Image image_number8;
+    touchgfx::Image image_number9;
+    touchgfx::Image image_bomb;
 
 private:
 

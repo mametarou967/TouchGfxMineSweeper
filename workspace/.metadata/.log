@@ -575,3 +575,72 @@ Unable to read memory.
 java.lang.Exception: Unable to read memory.
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2024-07-03 09:33:47.046 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-03 09:34:28.132
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-03 09:34:28.146
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-03 09:34:43.569
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-03 09:35:26.747
+!MESSAGE Indexed 'STM32U5G9J-DK2' (96 sources, 363 headers) in 41.8 sec: 33,335 declarations; 140,165 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0012%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-03 09:39:16.371
+!MESSAGE Request for monitor: '116^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-03 09:39:16.371
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2024-07-03 10:02:17.775 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-03 10:03:17.343
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-03 10:03:17.346
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-03 10:03:27.980
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-03 10:04:03.540
+!MESSAGE Indexed 'STM32U5G9J-DK2' (103 sources, 363 headers) in 34.2 sec: 33,363 declarations; 140,354 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0012%)
+!SESSION 2024-07-03 10:31:12.223 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-03 10:31:44.325
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-03 10:31:44.340
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-03 10:32:00.111
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-03 10:32:46.162
+!MESSAGE Indexed 'STM32U5G9J-DK2' (104 sources, 363 headers) in 44.7 sec: 33,375 declarations; 140,521 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0012%)

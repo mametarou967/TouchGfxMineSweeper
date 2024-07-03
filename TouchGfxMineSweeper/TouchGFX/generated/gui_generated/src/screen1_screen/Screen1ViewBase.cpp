@@ -27,6 +27,38 @@ Screen1ViewBase::Screen1ViewBase()
     image1_1.setXY(161, 16);
     image1_1.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER2_ID));
     add(image1_1);
+
+    image_number3.setXY(234, 16);
+    image_number3.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER3_ID));
+    add(image_number3);
+
+    image_number4.setXY(309, 16);
+    image_number4.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER4_ID));
+    add(image_number4);
+
+    image_number5.setXY(381, 16);
+    image_number5.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER5_ID));
+    add(image_number5);
+
+    image_number6.setXY(452, 16);
+    image_number6.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER6_ID));
+    add(image_number6);
+
+    image_number7.setXY(520, 16);
+    image_number7.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER7_ID));
+    add(image_number7);
+
+    image_number8.setXY(591, 16);
+    image_number8.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER8_ID));
+    add(image_number8);
+
+    image_number9.setXY(661, 16);
+    image_number9.setBitmap(touchgfx::Bitmap(BITMAP_TINY_OUTLINE_DISABLED_NUMBER9_ID));
+    add(image_number9);
+
+    image_bomb.setXY(17, 89);
+    image_bomb.setBitmap(touchgfx::Bitmap(BITMAP_TINY_BOMB_ID));
+    add(image_bomb);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

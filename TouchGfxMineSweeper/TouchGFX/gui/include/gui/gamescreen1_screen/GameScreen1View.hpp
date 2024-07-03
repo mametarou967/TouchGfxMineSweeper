@@ -83,6 +83,14 @@ public:
 		OpenNumber0,
 		OpenNumber1,
 		OpenNumber2,
+		OpenNumber3,
+		OpenNumber4,
+		OpenNumber5,
+		OpenNumber6,
+		OpenNumber7,
+		OpenNumber8,
+		OpenNumber9,
+		OpenBomb,
 		BlockStateMax
 	};
 
