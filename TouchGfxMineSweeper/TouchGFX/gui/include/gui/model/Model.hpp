@@ -48,6 +48,7 @@ protected:
 	Block getPreBlock(int row,int column);
 	bool hasBomb(int row,int column);
 	void setNumber(int row,int column,int bombNumber);
+	void openAdjacentBlocks(int row, int column);
 
     ModelListener* modelListener;
 };

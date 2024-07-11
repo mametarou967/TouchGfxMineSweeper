@@ -134,6 +134,18 @@ void Model::setNumber(int row,int column,int number)
 	matrix[row_index][column_index].number = number;
 }
 
+void Model::openAdjacentBlocks(int row, int column) {
+    for (int r = row - 1; r <= row + 1; ++r) {
+        for (int c = column - 1; c <= column + 1; ++c) {
+            if (r >= 1 && r <= row_size && c >= 1 && c <= column_size && !(r == row && c == column)) {
+                if (!matrix[r - 1][c - 1].isOpen) {
+                    openBlock(r, c);
+                }
+            }
+        }
+    }
+}
+
 
 bool Model::openBlock(int row,int column)
 {
@@ -168,7 +180,12 @@ bool Model::openBlock(int row,int column)
 		    }
 
 		    isGameEnded = true;
-		}
+		}else {
+            // 周囲の爆弾カウントが0ならば周囲のマスも開く
+            if (matrix[row_index][column_index].number == 0) {
+                openAdjacentBlocks(row, column);
+            }
+        }
 
 
 		result = true;
