@@ -29,6 +29,7 @@ public:
     virtual ~GameScreen1Presenter() {}
 
     void blockClicked(int row, int column);
+    void resetClicked(void);
     void modeToggleClicked(void);
     bool checkFlagMode(void);
 
@@ -51,6 +52,8 @@ public:
 	};
 
 private:
+    void CurrentViewSave(void);
+    void ViewUpdate(void);
     GameScreen1Presenter();
     BlockState GetBlockState(Model::Block);
 

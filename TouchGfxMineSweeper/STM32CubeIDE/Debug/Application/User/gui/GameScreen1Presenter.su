@@ -1,6 +1,6 @@
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:GameScreen1Presenter::~GameScreen1Presenter()	0	static
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:17:6:virtual void GameScreen1Presenter::deactivate()	0	static
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:11:6:virtual void GameScreen1Presenter::activate()	1024	static
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:11:6:virtual void GameScreen1Presenter::activate()	1032	static
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:virtual GameScreen1Presenter::~GameScreen1Presenter()	8	static
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:virtual void* GameScreen1Presenter::_ZThn4_N20GameScreen1PresenterD1Ev()	0	static
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:5:1:GameScreen1Presenter::GameScreen1Presenter(GameScreen1View&)	8	static

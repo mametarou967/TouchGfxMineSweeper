@@ -352,6 +352,12 @@ GameScreen1ViewBase::GameScreen1ViewBase() :
     Mode.setAction(buttonCallback);
     add(Mode);
 
+    Reset.setXY(607, 15);
+    Reset.setBitmaps(touchgfx::Bitmap(BITMAP_RESET_ID), touchgfx::Bitmap(BITMAP_RESET_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_AV_PLAY_ARROW_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
+    Reset.setIconXY(5, 5);
+    Reset.setAction(buttonCallback);
+    add(Reset);
+
     Block7_8.setXY(470, 405);
     Block7_8.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_ICON_ROUNDED_TINY_FILL_NORMAL_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID), touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_CONTENT_OUTLINED_FLAG_50_50_E8F6FB_SVG_ID));
     Block7_8.setIconXY(5, 5);
@@ -860,5 +866,12 @@ void GameScreen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         //When Mode clicked call virtual function
         //Call Mode_Clicked
         Mode_Clicked();
+    }
+    if (&src == &Reset)
+    {
+        //Reset_Interaction
+        //When Reset clicked call virtual function
+        //Call Reset_Clicked
+        Reset_Clicked();
     }
 }

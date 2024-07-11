@@ -33,6 +33,7 @@ public:
 	void setBombsWithout(int row,int column);
 	void setNumbers(void);
     bool isFlagMode;
+    void gameReset(void);
 
 protected:
 	static const int bomb_number = 15;
@@ -40,6 +41,7 @@ protected:
     static const int column_size = 9;
     Block matrix[row_size][column_size];
     Block preMatrix[row_size][column_size];
+    bool isGameEnded;
 
     void blockInit(int row , int column);
 	Block getPreBlock(int row,int column);

@@ -9,6 +9,12 @@ GameScreen1View::GameScreen1View()
 			touchgfx::Bitmap(BITMAP_INVALID),
 			touchgfx::Bitmap(BITMAP_INVALID));
 
+	// RESETの初期化
+	Reset.setBitmaps(touchgfx::Bitmap(BITMAP_RESET_ID),
+			touchgfx::Bitmap(BITMAP_RESET_ID),
+			touchgfx::Bitmap(BITMAP_INVALID),
+			touchgfx::Bitmap(BITMAP_INVALID));
+
 	int row = 0;
 	int column = 0;
 
@@ -114,8 +120,13 @@ void GameScreen1View::Mode_Clicked()
 				touchgfx::Bitmap(BITMAP_INVALID),
 				touchgfx::Bitmap(BITMAP_INVALID));
     }
-
 }
+
+void GameScreen1View::Reset_Clicked()
+{
+	presenter->resetClicked();
+}
+
 
 void GameScreen1View::updateBlockImage(int row,int column, GameScreen1Presenter::BlockState blockState)
 {

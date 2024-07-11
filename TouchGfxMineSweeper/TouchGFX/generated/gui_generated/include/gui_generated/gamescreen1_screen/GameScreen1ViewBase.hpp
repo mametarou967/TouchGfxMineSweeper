@@ -277,6 +277,10 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
+    virtual void Reset_Clicked()
+    {
+        // Override and implement this function in GameScreen1
+    }
 
 protected:
     FrontendApplication& application() {
@@ -344,6 +348,7 @@ protected:
     touchgfx::ButtonWithIcon Block6_7;
     touchgfx::ButtonWithIcon Block7_9;
     touchgfx::ButtonWithIcon Mode;
+    touchgfx::ButtonWithIcon Reset;
     touchgfx::ButtonWithIcon Block7_8;
     touchgfx::ButtonWithIcon Block7_7;
     touchgfx::ButtonWithIcon Block2_9;
