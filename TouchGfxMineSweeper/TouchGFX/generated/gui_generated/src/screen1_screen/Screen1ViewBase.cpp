@@ -59,6 +59,10 @@ Screen1ViewBase::Screen1ViewBase()
     image_bomb.setXY(17, 89);
     image_bomb.setBitmap(touchgfx::Bitmap(BITMAP_TINY_BOMB_ID));
     add(image_bomb);
+
+    image_flag_on.setXY(24, 336);
+    image_flag_on.setBitmap(touchgfx::Bitmap(BITMAP_FLAG_ON_ID));
+    add(image_flag_on);
 }
 
 Screen1ViewBase::~Screen1ViewBase()

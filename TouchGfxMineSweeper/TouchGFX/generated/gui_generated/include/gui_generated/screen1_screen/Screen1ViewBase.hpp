@@ -39,6 +39,7 @@ protected:
     touchgfx::Image image_number8;
     touchgfx::Image image_number9;
     touchgfx::Image image_bomb;
+    touchgfx::Image image_flag_on;
 
 private:
 

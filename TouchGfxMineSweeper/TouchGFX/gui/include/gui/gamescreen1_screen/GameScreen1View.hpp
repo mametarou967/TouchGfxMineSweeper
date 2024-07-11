@@ -75,6 +75,7 @@ public:
     virtual void Block7_7_Clicked();
     virtual void Block7_8_Clicked();
     virtual void Block7_9_Clicked();
+    virtual void Mode_Clicked();
 
     void updateBlockImage(int row,int column,GameScreen1Presenter::BlockState);
 protected:

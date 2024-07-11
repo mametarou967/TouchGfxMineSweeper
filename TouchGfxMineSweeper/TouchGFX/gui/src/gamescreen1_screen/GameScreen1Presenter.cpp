@@ -21,7 +21,8 @@ void GameScreen1Presenter::deactivate()
 
 void GameScreen1Presenter::blockClicked(int row, int column)
 {
-	if(!model.firstOpened)
+
+	if((!model.isFlagMode) && (!model.firstOpened))
 	{
 		// 初めて開いた場合はボムと数字をセット
 		model.setBombsWithout(row,column);
@@ -32,8 +33,16 @@ void GameScreen1Presenter::blockClicked(int row, int column)
 	// 現在の状態を保存
 	model.saveCurrentBlockMatrix();
 
-	// 入力による状態の変更
-	model.openBlock(row,column);
+
+	if(!model.isFlagMode)
+	{
+		// 入力による状態の変更
+		model.openBlock(row,column);
+	}
+	else
+	{
+		model.toggleFlag(row,column);
+	}
 
 	// 現在の状態と変化後の状態の比較
 	for(int row=1;row<=model.getRowMax();row++)
@@ -76,3 +85,15 @@ GameScreen1Presenter::BlockState GameScreen1Presenter::GetBlockState(Model::Bloc
 		}
 	}
 }
+
+void GameScreen1Presenter::modeToggleClicked(void)
+{
+	if(model.isFlagMode) model.isFlagMode = false;
+	else model.isFlagMode = true;
+}
+
+bool GameScreen1Presenter::checkFlagMode(void)
+{
+	return model.isFlagMode;
+}
+

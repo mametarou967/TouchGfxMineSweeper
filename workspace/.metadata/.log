@@ -850,3 +850,150 @@ Unable to read memory.
 java.lang.Exception: Unable to read memory.
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
 	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-07-03 15:43:54.710
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:183)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:204)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:662)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-07-03 15:43:55.032
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2024-07-03 16:06:57.128 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-03 16:07:26.831
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-03 16:07:26.844
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-03 16:07:42.398
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-03 16:08:34.811
+!MESSAGE Indexed 'STM32U5G9J-DK2' (108 sources, 475 headers) in 51.2 sec: 52,517 declarations; 174,232 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0.0026%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-03 16:12:07.804
+!MESSAGE Request for monitor: '50^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-03 16:12:07.805
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-03 16:22:49.058
+!MESSAGE Request for monitor: '57^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-03 16:22:49.058
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-03 16:24:46.514
+!MESSAGE Request for monitor: '109^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-03 16:24:46.514
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2024-07-11 11:08:56.466 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-11 11:09:20.991
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-11 11:09:20.994
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-11 11:09:38.330
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-11 11:11:22.421
+!MESSAGE Indexed 'STM32U5G9J-DK2' (108 sources, 475 headers) in 101 sec: 52,528 declarations; 174,301 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0.0026%)
+!SESSION 2024-07-11 11:19:52.355 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Repository\TouchGfxMineSweeper\TouchGfxMineSweeper\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-11 11:21:13.246
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-11 11:21:13.261
+!MESSAGE Log4j2 initialized with config file C:\Repository\TouchGfxMineSweeper\workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-11 11:21:32.125
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-11 11:22:30.387
+!MESSAGE Indexed 'STM32U5G9J-DK2' (108 sources, 475 headers) in 57 sec: 52,528 declarations; 174,301 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0.0026%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-11 11:29:40.728
+!MESSAGE Request for monitor: '77^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-11 11:29:40.728
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-11 11:36:35.877
+!MESSAGE Request for monitor: '52^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-11 11:36:35.877
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-07-11 11:41:47.177
+!MESSAGE Request for monitor: '51^error,msg="Unable to read memory."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-07-11 11:41:47.177
+!MESSAGE Failed to execute MI command:
+-data-read-memory 0xe000ee08 d 1 1 4
+Error message from debugger back end:
+Unable to read memory.
+!STACK 0
+java.lang.Exception: Unable to read memory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)

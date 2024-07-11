@@ -10,6 +10,7 @@
 Model::Model() : modelListener(0)
 {
 	firstOpened = false;
+	isFlagMode = false;
 	// 値の初期化
     for (int row = 1; row <= row_size; ++row) {
         for (int column = 1; column <= column_size; ++column) {
@@ -124,6 +125,18 @@ bool Model::openBlock(int row,int column)
 		return true;
 	}
 }
+
+bool Model::toggleFlag(int row,int column)
+{
+	int row_index = row - 1;
+	int column_index = column - 1;
+
+	if(matrix[row_index][column_index].hasFlag) matrix[row_index][column_index].hasFlag = false;
+	else  matrix[row_index][column_index].hasFlag = true;
+
+	return true;
+}
+
 
 void Model::setBombsWithout(int row,int column)
 {

@@ -3,6 +3,12 @@
 
 GameScreen1View::GameScreen1View()
 {
+	// モードの初期化
+	Mode.setBitmaps(touchgfx::Bitmap(BITMAP_FLAG_OFF_ID),
+			touchgfx::Bitmap(BITMAP_FLAG_OFF_ID),
+			touchgfx::Bitmap(BITMAP_INVALID),
+			touchgfx::Bitmap(BITMAP_INVALID));
+
 	int row = 0;
 	int column = 0;
 
@@ -90,6 +96,26 @@ void GameScreen1View::Block7_6_Clicked(){ blockClicked(7,6); }
 void GameScreen1View::Block7_7_Clicked(){ blockClicked(7,7); }
 void GameScreen1View::Block7_8_Clicked(){ blockClicked(7,8); }
 void GameScreen1View::Block7_9_Clicked(){ blockClicked(7,9); }
+void GameScreen1View::Mode_Clicked()
+{
+    presenter->modeToggleClicked();
+
+    if(presenter->checkFlagMode())
+    {
+		Mode.setBitmaps(touchgfx::Bitmap(BITMAP_FLAG_ON_ID),
+				touchgfx::Bitmap(BITMAP_FLAG_ON_ID),
+				touchgfx::Bitmap(BITMAP_INVALID),
+				touchgfx::Bitmap(BITMAP_INVALID));
+    }
+    else
+    {
+		Mode.setBitmaps(touchgfx::Bitmap(BITMAP_FLAG_OFF_ID),
+				touchgfx::Bitmap(BITMAP_FLAG_OFF_ID),
+				touchgfx::Bitmap(BITMAP_INVALID),
+				touchgfx::Bitmap(BITMAP_INVALID));
+    }
+
+}
 
 void GameScreen1View::updateBlockImage(int row,int column, GameScreen1Presenter::BlockState blockState)
 {

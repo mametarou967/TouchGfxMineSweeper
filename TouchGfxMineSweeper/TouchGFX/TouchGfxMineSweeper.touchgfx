@@ -893,6 +893,22 @@
           },
           {
             "Type": "ButtonWithIcon",
+            "Name": "Mode",
+            "X": 607,
+            "Y": 345,
+            "Width": 180,
+            "Height": 120,
+            "Pressed": "flag_off.png",
+            "Released": "flag_off.png",
+            "IconPressed": "__generated\\icon_theme_images_content_outlined_flag_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_av_play_arrow_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
             "Name": "Block7_8",
             "X": 470,
             "Y": 405,
@@ -1715,48 +1731,14 @@
             }
           },
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "Mode_Interaction",
             "Trigger": {
-              "Type": "TriggerNone"
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Mode"
             },
             "Action": {
-              "Type": "ActionNone"
-            }
-          },
-          {
-            "InteractionName": "Interaction2",
-            "Trigger": {
-              "Type": "TriggerNone"
-            },
-            "Action": {
-              "Type": "ActionNone"
-            }
-          },
-          {
-            "InteractionName": "Interaction3",
-            "Trigger": {
-              "Type": "TriggerNone"
-            },
-            "Action": {
-              "Type": "ActionNone"
-            }
-          },
-          {
-            "InteractionName": "Interaction4",
-            "Trigger": {
-              "Type": "TriggerNone"
-            },
-            "Action": {
-              "Type": "ActionNone"
-            }
-          },
-          {
-            "InteractionName": "Interaction5",
-            "Trigger": {
-              "Type": "TriggerNone"
-            },
-            "Action": {
-              "Type": "ActionNone"
+              "Type": "ActionCustom",
+              "FunctionName": "Mode_Clicked"
             }
           }
         ]
@@ -1876,6 +1858,15 @@
             "Width": 60,
             "Height": 60,
             "RelativeFilename": "tiny_bomb.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image_flag_on",
+            "X": 24,
+            "Y": 336,
+            "Width": 180,
+            "Height": 120,
+            "RelativeFilename": "flag_on.png"
           }
         ],
         "Interactions": []

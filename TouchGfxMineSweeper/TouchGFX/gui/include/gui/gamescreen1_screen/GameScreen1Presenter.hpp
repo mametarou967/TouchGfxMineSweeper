@@ -29,6 +29,8 @@ public:
     virtual ~GameScreen1Presenter() {}
 
     void blockClicked(int row, int column);
+    void modeToggleClicked(void);
+    bool checkFlagMode(void);
 
     enum class BlockState
 	{

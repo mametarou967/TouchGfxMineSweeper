@@ -273,6 +273,10 @@ public:
     {
         // Override and implement this function in GameScreen1
     }
+    virtual void Mode_Clicked()
+    {
+        // Override and implement this function in GameScreen1
+    }
 
 protected:
     FrontendApplication& application() {
@@ -339,6 +343,7 @@ protected:
     touchgfx::ButtonWithIcon Block6_8;
     touchgfx::ButtonWithIcon Block6_7;
     touchgfx::ButtonWithIcon Block7_9;
+    touchgfx::ButtonWithIcon Mode;
     touchgfx::ButtonWithIcon Block7_8;
     touchgfx::ButtonWithIcon Block7_7;
     touchgfx::ButtonWithIcon Block2_9;
