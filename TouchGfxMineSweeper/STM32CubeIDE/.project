@@ -505,6 +505,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_flag_sample.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_reset.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_reset.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_tiny_bomb.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_tiny_bomb.cpp</locationURI>
