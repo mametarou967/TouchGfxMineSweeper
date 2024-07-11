@@ -490,6 +490,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_BackScreen.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_bomb_icon.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_bomb_icon.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_flag_off.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_flag_off.cpp</locationURI>

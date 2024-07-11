@@ -29,6 +29,15 @@ GameScreen1View::GameScreen1View()
     GameScreen1View::block1_1_Cliecked_number = 0;
 }
 
+
+void GameScreen1View::updateBombNumber(int bombNumber)
+{
+}
+
+void GameScreen1View::updateFlagNumber(int flagNumber)
+{
+}
+
 void GameScreen1View::setupScreen()
 {
     GameScreen1ViewBase::setupScreen();

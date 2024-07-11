@@ -10,6 +10,7 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class GameScreen1ViewBase : public touchgfx::View<GameScreen1Presenter>
 {
@@ -357,6 +358,8 @@ protected:
     touchgfx::ButtonWithIcon Block1_9;
     touchgfx::ButtonWithIcon Block1_8;
     touchgfx::ButtonWithIcon Block1_7;
+    touchgfx::Image image1;
+    touchgfx::TextArea textArea1;
 
 private:
 

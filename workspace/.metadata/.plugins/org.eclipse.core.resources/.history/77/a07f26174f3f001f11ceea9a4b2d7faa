@@ -9,6 +9,12 @@ GameScreen1View::GameScreen1View()
 			touchgfx::Bitmap(BITMAP_INVALID),
 			touchgfx::Bitmap(BITMAP_INVALID));
 
+	// RESETの初期化
+	Reset.setBitmaps(touchgfx::Bitmap(BITMAP_RESET_ID),
+			touchgfx::Bitmap(BITMAP_RESET_ID),
+			touchgfx::Bitmap(BITMAP_INVALID),
+			touchgfx::Bitmap(BITMAP_INVALID));
+
 	int row = 0;
 	int column = 0;
 
@@ -21,6 +27,28 @@ GameScreen1View::GameScreen1View()
 		}
 	}
     GameScreen1View::block1_1_Cliecked_number = 0;
+}
+
+
+void GameScreen1View::updateBombNumber(int bombNumber)
+{
+	//bombNumberTextBuffer[0] = '4';
+	//bombNumberTextBuffer[1] = '5';
+	//bombNumberTextBuffer[2] = 0;
+	// touchgfx::Unicode::snprintf(bombNumberTextBuffer, BOMBNUMBERTEXT_SIZE, "%2d", bombNumber);
+	//bombNumberText.invalidate();
+}
+
+void GameScreen1View::updateFlagNumber(int flagNumber)
+{
+	int aa = 12;
+	touchgfx::Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%2d", aa);
+	//int aa = 12;
+	//flagNumberTextBuffer[0] = '1';
+	//flagNumberTextBuffer[1] = '2';
+	//flagNumberTextBuffer[3] = 0;
+	// touchgfx::Unicode::snprintf(flagNumberTextBuffer, BOMBNUMBERTEXT_SIZE, "%2d", aa);
+	//flagNumberText.invalidate();
 }
 
 void GameScreen1View::setupScreen()
@@ -114,8 +142,13 @@ void GameScreen1View::Mode_Clicked()
 				touchgfx::Bitmap(BITMAP_INVALID),
 				touchgfx::Bitmap(BITMAP_INVALID));
     }
-
 }
+
+void GameScreen1View::Reset_Clicked()
+{
+	presenter->resetClicked();
+}
+
 
 void GameScreen1View::updateBlockImage(int row,int column, GameScreen1Presenter::BlockState blockState)
 {

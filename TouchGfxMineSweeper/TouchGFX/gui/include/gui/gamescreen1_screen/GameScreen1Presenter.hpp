@@ -52,6 +52,8 @@ public:
 	};
 
 private:
+    int saveFlagNumber;
+    int saveBombNumber;
     void CurrentViewSave(void);
     void ViewUpdate(void);
     GameScreen1Presenter();

@@ -4,6 +4,7 @@
 #include <gui_generated/gamescreen1_screen/GameScreen1ViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <images/BitmapDatabase.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
 
 GameScreen1ViewBase::GameScreen1ViewBase() :
     buttonCallback(this, &GameScreen1ViewBase::buttonCallbackHandler)
@@ -405,6 +406,16 @@ GameScreen1ViewBase::GameScreen1ViewBase() :
     Block1_7.setIconXY(5, 5);
     Block1_7.setAction(buttonCallback);
     add(Block1_7);
+
+    image1.setXY(607, 170);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_BOMB_ICON_ID));
+    add(image1);
+
+    textArea1.setXY(642, 180);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea1.setLinespacing(0);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Q174));
+    add(textArea1);
 }
 
 GameScreen1ViewBase::~GameScreen1ViewBase()

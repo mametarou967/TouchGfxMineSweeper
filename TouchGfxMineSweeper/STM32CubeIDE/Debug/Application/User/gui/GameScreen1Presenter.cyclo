@@ -5,9 +5,9 @@ C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescree
 ../../TouchGFX/gui/include/gui/gamescreen1_screen/GameScreen1Presenter.hpp:29:13:virtual void* GameScreen1Presenter::_ZThn4_N20GameScreen1PresenterD1Ev()	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:5:1:GameScreen1Presenter::GameScreen1Presenter(GameScreen1View&)	1
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:66:6:void GameScreen1Presenter::CurrentViewSave()	1
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:85:34:GameScreen1Presenter::BlockState GameScreen1Presenter::GetBlockState(Model::Block)	4
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:71:6:void GameScreen1Presenter::ViewUpdate()	4
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:93:34:GameScreen1Presenter::BlockState GameScreen1Presenter::GetBlockState(Model::Block)	4
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:74:6:void GameScreen1Presenter::ViewUpdate()	5
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:22:6:void GameScreen1Presenter::blockClicked(int, int)	4
 C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:53:6:void GameScreen1Presenter::resetClicked()	1
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:112:6:void GameScreen1Presenter::modeToggleClicked()	1
-C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:118:6:bool GameScreen1Presenter::checkFlagMode()	1
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:120:6:void GameScreen1Presenter::modeToggleClicked()	1
+C:/Repository/TouchGfxMineSweeper/TouchGfxMineSweeper/TouchGFX/gui/src/gamescreen1_screen/GameScreen1Presenter.cpp:126:6:bool GameScreen1Presenter::checkFlagMode()	1

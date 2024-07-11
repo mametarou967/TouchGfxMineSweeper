@@ -79,6 +79,8 @@ public:
     virtual void Reset_Clicked();
 
     void updateBlockImage(int row,int column,GameScreen1Presenter::BlockState);
+    void updateBombNumber(int bombNumber);
+    void updateFlagNumber(int flagNumber);
 protected:
     int block1_1_Cliecked_number;
     touchgfx::ButtonWithIcon& getBlockWithIcon(int row , int column);

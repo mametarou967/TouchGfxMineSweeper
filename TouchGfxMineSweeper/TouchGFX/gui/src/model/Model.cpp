@@ -5,6 +5,9 @@
 #include <vector>
 #include <random>
 #include <ctime>
+#include <chrono>
+#include <algorithm>
+
 
 
 Model::Model() : modelListener(0)
@@ -56,6 +59,19 @@ void Model::gameReset(void)
         	blockInit(row,column);  // 全ての要素を0に初期化
         }
     }
+}
+
+int Model::getFlagNumber(void)
+{
+	int result = 0;
+
+    for (int row = 1; row <= row_size; ++row) {
+        for (int column = 1; column <= column_size; ++column) {
+        	if(matrix[row-1][column-1].hasFlag) result++;
+        }
+    }
+
+    return result;
 }
 
 void Model::saveCurrentBlockMatrix(void)
@@ -173,29 +189,36 @@ bool Model::toggleFlag(int row,int column)
 }
 
 
-void Model::setBombsWithout(int row,int column)
+void Model::setBombsWithout(int row, int column)
 {
-    std::mt19937 generator(static_cast<unsigned int>(std::time(nullptr)));
-    std::uniform_int_distribution<int> distribution(0, row_size * column_size - 1);
+    // シードをより高精度なものに変更
+    std::random_device rd;
+    std::mt19937 generator(rd());
 
-    int bombsPlaced = 0;
-    while (bombsPlaced < bomb_number) {
-        int randomIndex = distribution(generator);
+    // すべての可能な位置を一度リストにする
+    std::vector<int> positions(row_size * column_size);
+    std::iota(positions.begin(), positions.end(), 0);
+
+    // クリックされた位置とその周囲8マスを避ける
+    for (int r = row - 1; r <= row + 1; ++r) {
+        for (int c = column - 1; c <= column + 1; ++c) {
+            if (r >= 1 && r <= row_size && c >= 1 && c <= column_size) {
+                int index = (r - 1) * column_size + (c - 1);
+                positions.erase(std::remove(positions.begin(), positions.end(), index), positions.end());
+            }
+        }
+    }
+
+    // リストをシャッフル
+    std::shuffle(positions.begin(), positions.end(), generator);
+
+    // 最初のbomb_number個の位置に爆弾を配置
+    for (int i = 0; i < bomb_number; ++i) {
+        int randomIndex = positions[i];
         int row_index = randomIndex / column_size;
         int column_index = randomIndex % column_size;
 
-        if((row-1 == row_index) && (column-1 == column_index))
-        {
-        	continue;
-        }
-
-        if (matrix[row_index][column_index].hasBomb)
-        {
-        	continue;
-        }
-
-		matrix[row_index][column_index].hasBomb = true;
-		bombsPlaced++;
+        matrix[row_index][column_index].hasBomb = true;
     }
 }
 

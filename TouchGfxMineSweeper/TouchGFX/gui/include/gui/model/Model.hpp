@@ -34,6 +34,7 @@ public:
 	void setNumbers(void);
     bool isFlagMode;
     void gameReset(void);
+    int getFlagNumber(void);
 
 protected:
 	static const int bomb_number = 15;

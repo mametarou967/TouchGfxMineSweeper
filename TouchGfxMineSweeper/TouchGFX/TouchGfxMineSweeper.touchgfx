@@ -1050,6 +1050,26 @@
             "IconY": 5,
             "IconHeight": 50,
             "IconWidth": 50
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 607,
+            "Y": 170,
+            "Width": 35,
+            "Height": 35,
+            "RelativeFilename": "bomb_icon.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 642,
+            "Y": 180,
+            "Width": 35,
+            "Height": 20,
+            "TextId": "__SingleUse_Q174",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [

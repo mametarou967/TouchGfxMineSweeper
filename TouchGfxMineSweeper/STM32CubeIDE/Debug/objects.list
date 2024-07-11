@@ -44,6 +44,7 @@
 "./Application/User/generated/image_BackScreen.o"
 "./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.o"
 "./Application/User/generated/image_alternate_theme_images_widgets_button_icon_rounded_tiny_outline_disabled.o"
+"./Application/User/generated/image_bomb_icon.o"
 "./Application/User/generated/image_flag_off.o"
 "./Application/User/generated/image_flag_on.o"
 "./Application/User/generated/image_flag_sample.o"

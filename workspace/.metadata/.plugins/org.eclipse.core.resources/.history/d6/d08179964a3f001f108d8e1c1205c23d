@@ -9,14 +9,7 @@
 
 Model::Model() : modelListener(0)
 {
-	firstOpened = false;
-	isFlagMode = false;
-	// 値の初期化
-    for (int row = 1; row <= row_size; ++row) {
-        for (int column = 1; column <= column_size; ++column) {
-        	blockInit(row,column);  // 全ての要素を0に初期化
-        }
-    }
+	gameReset();
 }
 
 void Model::tick()
@@ -51,6 +44,29 @@ void Model::blockInit(int row , int column)
 	block->number = 0;
 }
 
+
+void Model::gameReset(void)
+{
+	firstOpened = false;
+	isFlagMode = false;
+	isGameEnded = false;
+	// 値の初期化
+    for (int row = 1; row <= row_size; ++row) {
+        for (int column = 1; column <= column_size; ++column) {
+        	blockInit(row,column);  // 全ての要素を0に初期化
+        }
+    }
+}
+
+int Model::getOpenFlagNumber(void)
+{
+    for (int row = 1; row <= row_size; ++row) {
+        for (int column = 1; column <= column_size; ++column) {
+        	blockInit(row,column);  // 全ての要素を0に初期化
+        }
+    }
+
+}
 
 void Model::saveCurrentBlockMatrix(void)
 {
@@ -115,28 +131,55 @@ void Model::setNumber(int row,int column,int number)
 
 bool Model::openBlock(int row,int column)
 {
+	bool result;
 	int row_index = row - 1;
 	int column_index = column - 1;
 
-	if(matrix[row_index][column_index].isOpen) return false;
+	// ゲームが終了している場合には開けない
+	if(isGameEnded) return false;
+	// 該当場所にフラグが立っている場合には開けない
+	if(matrix[row_index][column_index].hasFlag) return false;
+
+	// まだ開いていなければ開く
+	if(matrix[row_index][column_index].isOpen)
+	{
+		result = false;
+	}
 	else
 	{
 		matrix[row_index][column_index].isOpen = true;
-		return true;
+
+		// 開いた場所がBOMBだった場合には、プレイヤーに他のBOMBの場所も教えてあげるためにすべてのBOMNの位置を開く
+		// また、状態としてはゲーム終了とする
+		if(matrix[row_index][column_index].hasBomb)
+		{
+		    for (int row = 1; row <= row_size; ++row) {
+		        for (int column = 1; column <= column_size; ++column) {
+		        	if(matrix[row-1][column-1].hasBomb && !(matrix[row-1][column-1].isOpen) && !(matrix[row-1][column-1].hasFlag)){
+		        		matrix[row-1][column-1].isOpen = true;
+		        	}
+		        }
+		    }
+
+		    isGameEnded = true;
+		}
+
+
+		result = true;
 	}
+
+	return result;
 }
 
-bool Model::openBlock(int row,int column)
+bool Model::toggleFlag(int row,int column)
 {
 	int row_index = row - 1;
 	int column_index = column - 1;
 
-	if(matrix[row_index][column_index].isOpen) return false;
-	else
-	{
-		matrix[row_index][column_index].isOpen = true;
-		return true;
-	}
+	if(matrix[row_index][column_index].hasFlag) matrix[row_index][column_index].hasFlag = false;
+	else  matrix[row_index][column_index].hasFlag = true;
+
+	return true;
 }
 
 
