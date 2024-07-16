@@ -2598,3 +2598,5 @@
 2024-07-11 15:47:07,883 [INFO] WebApp:442 - Direct internet connection detected
 2024-07-11 15:47:08,478 [INFO] WebApp:192 - Starting web application
 2024-07-11 15:47:08,478 [INFO] WebApp:544 - Web application path used C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\db\plugins\mcufinder\reactClient1\index.html
+2024-07-11 16:23:31,508 [INFO] WebApp:354 - JxBrowser engine has been closed 
+2024-07-11 16:23:53,110 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
